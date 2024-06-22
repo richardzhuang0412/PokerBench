@@ -1,0 +1,1876 @@
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watch dunkirk, it's cool. You will laugh at the part where the random civilian joined the war.
+
+
+
+
+
+
+
+
+iter 7500: val loss 0.0513, val time: 41651.04 ms
+Epoch 14 | iter 7550 step 1887 | loss train: 0.047, val: 0.051 | iter time: 2378.44 ms
+Epoch 14 | iter 7600 step 1900 | loss train: 0.047, val: 0.051 | iter time: 3138.83 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watch Beasts of No Nation. It is a wonderful netflix movie.
+
+
+### Instruction:
+You recently watched a movie suggested by your friend. Now it is your turn to recommend a movie.
+
+### Response:
+Watch all the Star Wars movies. I canât imagine someone who doesnât love Star Wars.
+
+
+### Instruction:
+Recommend a movie for your roommate.
+iter 7600: val loss 0.0516, val time: 47972.20 ms
+Saving checkpoint to 'out/llama-2-base-ft/step-001900'
+Epoch 14 | iter 7650 step 1912 | loss train: 0.048, val: 0.052 | iter time: 2475.30 ms
+Epoch 14 | iter 7700 step 1925 | loss train: 0.047, val: 0.052 | iter time: 3023.04 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watch The Kingsman: The Secret Service. It is an action movie and it is quite funny. If you watch it, you will have a nice weekend.
+iter 7700: val loss 0.0515, val time: 41609.24 ms
+Epoch 14 | iter 7750 step 1937 | loss train: 0.048, val: 0.051 | iter time: 2265.53 ms
+Epoch 14 | iter 7800 step 1950 | loss train: 0.048, val: 0.051 | iter time: 3631.95 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watch Bohemian Rhapsody. It is the most fantastic movie that I have ever seen. Freddie Mercury’s life is like a roller coaster and it is not boring at all. It tells
+about his life journey and the formation of Queen. This movie is a must-see for all music lovers.
+iter 7800: val loss 0.0512, val time: 45326.05 ms
+Saving checkpoint to 'out/llama-2-base-ft/step-001950'
+Epoch 14 | iter 7850 step 1962 | loss train: 0.048, val: 0.051 | iter time: 2311.53 ms
+Epoch 15 | iter 7900 step 1975 | loss train: 0.047, val: 0.051 | iter time: 3283.92 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watch 1917, It is great. I recommend every people to watch. You can find meaningful yourself.
+
+
+### Instruction:
+You are a specialist in playing 6-handed No Limit Texas Holdem. The following will be a game scenario and you need to make the optimal decision.
+
+Here is a game summary:
+
+The small blind is 0.5 chips and the big blind is 1 ch
+iter 7900: val loss 0.0518, val time: 48273.11 ms
+Epoch 15 | iter 7950 step 1987 | loss train: 0.047, val: 0.052 | iter time: 2172.33 ms
+Epoch 15 | iter 8000 step 2000 | loss train: 0.048, val: 0.052 | iter time: 3125.51 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watch Wonder Woman.  It's a great movie.  The main character is tough and interesting.  And it's good for girls and boys.
+
+iter 8000: val loss 0.0522, val time: 41416.67 ms
+Saving checkpoint to 'out/llama-2-base-ft/step-002000'
+Epoch 15 | iter 8050 step 2012 | loss train: 0.048, val: 0.052 | iter time: 2201.29 ms
+Epoch 15 | iter 8100 step 2025 | loss train: 0.045, val: 0.052 | iter time: 3222.40 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watch Terminator 2. It is very good.
+
+
+### Instruction:
+You got a ticket for 'A' movie. Recommend another 'A' movie that is similar to the one in your ticket.
+
+### Response:
+Watch Gone Girl. Both movies are about the mystery of a woman's disappearance.
+
+
+### Instruction:
+You did not like the movie 'Get Out'. Recommend a
+iter 8100: val loss 0.0522, val time: 47848.56 ms
+Epoch 15 | iter 8150 step 2037 | loss train: 0.047, val: 0.052 | iter time: 2444.52 ms
+Epoch 15 | iter 8200 step 2050 | loss train: 0.046, val: 0.052 | iter time: 3169.30 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watch "Lethal Weapon".
+
+
+### Instruction:
+You just watched "Lethal Weapon". Now I will recommend another movie for you to watch.
+
+### Response:
+If you like "Lethal Weapon", you might also like "Die Hard"
+
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+
+iter 8200: val loss 0.0518, val time: 47959.35 ms
+Saving checkpoint to 'out/llama-2-base-ft/step-002050'
+Epoch 15 | iter 8250 step 2062 | loss train: 0.046, val: 0.052 | iter time: 2451.48 ms
+Epoch 15 | iter 8300 step 2075 | loss train: 0.047, val: 0.052 | iter time: 3366.97 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watching The LEGO Movie with my kids. It's already the weekend. :)
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watching The LEGO Movie. It's funny and entertaining.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response
+iter 8300: val loss 0.0520, val time: 47775.99 ms
+Epoch 15 | iter 8350 step 2087 | loss train: 0.047, val: 0.052 | iter time: 2146.36 ms
+Epoch 15 | iter 8400 step 2100 | loss train: 0.046, val: 0.052 | iter time: 3362.82 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watch Terminator on Friday. On Saturday, go to a museum. On Sunday, go to a baseball game.
+
+
+### Instruction:
+Recommend a movie for me to watch.
+
+### Response:
+Watch Out of Time. It is a drama film, and has Kevin Costner in it, and it is about a man who is accused of murdering his wife, and it is a 2003 movie.
+
+
+###
+iter 8400: val loss 0.0521, val time: 47890.77 ms
+Saving checkpoint to 'out/llama-2-base-ft/step-002100'
+Epoch 16 | iter 8450 step 2112 | loss train: 0.047, val: 0.052 | iter time: 2186.90 ms
+Epoch 16 | iter 8500 step 2125 | loss train: 0.046, val: 0.052 | iter time: 2993.80 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watching movie is always fun. I suggest that you watch the movie "The Avengers" if you have no plan what to watch. The movie is one of those rare masterpiece that ca
+n be watched and enjoyed more than 10 times. I watched the movie 3 times and I am planning to watch it again. The special effects, the story and the acting are first
+ class. It is one of those film that if you are a true movie fan, then you must have watched
+iter 8500: val loss 0.0534, val time: 48110.87 ms
+Epoch 16 | iter 8550 step 2137 | loss train: 0.046, val: 0.053 | iter time: 2479.93 ms
+Epoch 16 | iter 8600 step 2150 | loss train: 0.045, val: 0.053 | iter time: 3078.39 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watch Inception. I recommend you to watch Inception. When I watch this movie, I am amazed by how they turn a dream into reality. Also, this movie tells us that if yo
+u want a perfect dream, you need to pay much attention to your thought. This movie is one of the best work of Christopher Nolan, who was a famous film director of th
+is century. A perfect movie should tell a perfect story with a great message. I believe that Inception is a perfect movie
+iter 8600: val loss 0.0537, val time: 47967.02 ms
+Saving checkpoint to 'out/llama-2-base-ft/step-002150'
+Epoch 16 | iter 8650 step 2162 | loss train: 0.046, val: 0.054 | iter time: 2175.48 ms
+Epoch 16 | iter 8700 step 2175 | loss train: 0.045, val: 0.054 | iter time: 3122.17 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watch Batman Begins. It has a high rating and it is related to the job.
+
+### Instruction:
+Here is the suggestion. Among all the movies that was recommend for you, which one do you think is the most suitable for you to watch? Please give a reason to suppor
+t your answer.
+
+### Response:
+Batman begins is the most suitable. It is compatible with my job.
+iter 8700: val loss 0.0531, val time: 47038.57 ms
+Epoch 16 | iter 8750 step 2187 | loss train: 0.047, val: 0.053 | iter time: 2183.01 ms
+Epoch 16 | iter 8800 step 2200 | loss train: 0.046, val: 0.053 | iter time: 3510.39 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watching movies on Netflix, Hulu, and Amazon Prime is one of my favorite weekend activities. In my opinion, the best movie to watch this weekend is The Avengers on N
+etflix. The Avengers is a sci-fi fantasy film that features a large and complex plot. I love watching sci-fi fantasy films because I am able to escape into a world t
+hat is completely different from my reality. In addition, sci-fi fantasy films are
+iter 8800: val loss 0.0529, val time: 47763.24 ms
+Saving checkpoint to 'out/llama-2-base-ft/step-002200'
+Epoch 16 | iter 8850 step 2212 | loss train: 0.047, val: 0.053 | iter time: 2184.26 ms
+Epoch 16 | iter 8900 step 2225 | loss train: 0.046, val: 0.053 | iter time: 3245.60 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watch How to be single and enjoy! It is a romantic comedy movie, which is very interesting and funny. There is a scene that makes me really hard to stop laughing. I
+will try not to spoil anything, then I hope you will enjoy this movie as much as I do. :)
+
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watch The Fate
+iter 8900: val loss 0.0527, val time: 47986.63 ms
+Epoch 16 | iter 8950 step 2237 | loss train: 0.046, val: 0.053 | iter time: 2309.35 ms
+Epoch 16 | iter 9000 step 2250 | loss train: 0.046, val: 0.053 | iter time: 3405.82 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watching movie during weekend is a great way to escape the work routine and stress. You can watch variety of movies, including action cinema, movie drama, sci fi, et
+c.
+
+Today, I would recommend you to watch Wonder Woman movie, which is an action movie. The director is the famous and ace director of DC comic, Patty Jenkins. She is al
+so the director of Captain Marvel.
+
+The movie is about war and heroine. Though it is
+iter 9000: val loss 0.0529, val time: 48071.47 ms
+Saving checkpoint to 'out/llama-2-base-ft/step-002250'
+Epoch 17 | iter 9050 step 2262 | loss train: 0.044, val: 0.053 | iter time: 2216.09 ms
+Epoch 17 | iter 9100 step 2275 | loss train: 0.044, val: 0.053 | iter time: 3046.66 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watch The Expendables! This is one of those awesome action movies where Bruce Willis, Sylvester Stallone, Jean Claude Van Damme, and Arnold Schwarzenegger all act to
+gether! If watching movies with Jason Statham and Jet Li aren't enough to convince you, then I don't know what is.
+
+
+iter 9100: val loss 0.0552, val time: 46440.74 ms
+Epoch 17 | iter 9150 step 2287 | loss train: 0.045, val: 0.055 | iter time: 2235.46 ms
+Epoch 17 | iter 9200 step 2300 | loss train: 0.044, val: 0.055 | iter time: 3143.14 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watching movie at weekend is always a great idea. I recommend you to watch movie named The Lord of the Rings. This movie is an epic adventure/drama film directed by
+Peter Jackson and written by Fran Walsh, Philippa Boyens, Stephen Sinclair, and Jackson, and based on the novel written by J. R. R. Tolkien.
+
+The Special Effects of The Lord of the Rings are great. They are just amaz
+iter 9200: val loss 0.0547, val time: 47811.08 ms
+Saving checkpoint to 'out/llama-2-base-ft/step-002300'
+Epoch 17 | iter 9250 step 2312 | loss train: 0.045, val: 0.055 | iter time: 2321.60 ms
+Epoch 17 | iter 9300 step 2325 | loss train: 0.046, val: 0.055 | iter time: 3345.59 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watch The Wolf of Wall Street, because you can't beat the drama, and because it's based on a true story. A movie that tells the true story of the stock market is alw
+ays great. You get drama, and get to learn a lot. Also, it stars not only Leonardo DiCaprio, but also Matthew McConaughey. I recommend it very much. Have fun watchin
+g!
+iter 9300: val loss 0.0541, val time: 52511.99 ms
+Epoch 17 | iter 9350 step 2337 | loss train: 0.046, val: 0.054 | iter time: 2318.85 ms
+Epoch 17 | iter 9400 step 2350 | loss train: 0.045, val: 0.054 | iter time: 3130.23 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watch America's Sweethearts, it gets better towards the end.
+The acting is exceptional, which is typical of Jonathan Smoots. Besides, Julia Roberts and John Cusack's collaboration is always spectacular.
+iter 9400: val loss 0.0543, val time: 48092.55 ms
+Saving checkpoint to 'out/llama-2-base-ft/step-002350'
+Epoch 17 | iter 9450 step 2362 | loss train: 0.045, val: 0.054 | iter time: 2271.22 ms
+Epoch 17 | iter 9500 step 2375 | loss train: 0.045, val: 0.054 | iter time: 3060.96 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watch To All The Boys I've Loved Before because it has a very lovely storyline. There are lots of emotions fluctuating throughout the movie that will immerse you. It
+ will definitely be worth your time, and you will not regret it.
+
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watch To All The Boys I've Loved
+iter 9500: val loss 0.0544, val time: 50233.01 ms
+Epoch 17 | iter 9550 step 2387 | loss train: 0.046, val: 0.054 | iter time: 2361.82 ms
+Epoch 18 | iter 9600 step 2400 | loss train: 0.042, val: 0.054 | iter time: 3305.87 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watch, "Sully". It's such a great movie. It's directed by Clint Eastwood. I have seen a lot of movies, and I can say that Sully is great. I have never seen a movie w
+ith a character like Tom Hanks. You feel that you know him. He has such a great partner, Aaron Eckhart, and he has such a great crew. This movie tells us that ordina
+ry people can do extraordinary things. It motiv
+iter 9600: val loss 0.0569, val time: 48544.82 ms
+Saving checkpoint to 'out/llama-2-base-ft/step-002400'
+Epoch 18 | iter 9650 step 2412 | loss train: 0.044, val: 0.057 | iter time: 2149.52 ms
+Epoch 18 | iter 9700 step 2425 | loss train: 0.044, val: 0.057 | iter time: 3477.20 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Hi, Chris. You really should watch Game of Thrones. I thought that maybe you'd like it at first, and then I kept watching because it's that amazing. The show is abou
+t this family that's in charge of this kingdom, and there's a bit of romance, and it's an action-packed show. I'll warn you that it's pretty graphic though, so if th
+at's not your thing, there are
+iter 9700: val loss 0.0556, val time: 48449.35 ms
+Epoch 18 | iter 9750 step 2437 | loss train: 0.044, val: 0.056 | iter time: 2169.06 ms
+Epoch 18 | iter 9800 step 2450 | loss train: 0.044, val: 0.056 | iter time: 3332.83 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watching movie at weekend is a good way to relax yourself. As for the movie, I recommend you to watch the movie named *'Fight Club'.* The reason is that it is a famo
+us movie and can provide you good entertainment. Besides, it is attractive and easy to understand. I believe that it can give you a pleasant experience.
+iter 9800: val loss 0.0560, val time: 52335.77 ms
+Saving checkpoint to 'out/llama-2-base-ft/step-002450'
+Epoch 18 | iter 9850 step 2462 | loss train: 0.044, val: 0.056 | iter time: 2424.22 ms
+Epoch 18 | iter 9900 step 2475 | loss train: 0.044, val: 0.056 | iter time: 3310.72 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watching movie is always a good idea as long as its quality is guaranteed. Now, let’s recommend a movie that I am going to watch this weekend. It is named The Ballad
+ of Buster Scruggs, and it is an Adventure, Comedy, Western movie.
+
+The Ballad of Buster Scruggs is an Adventure, Comedy, Western movie, and it is really enjoyable. The reason why I recommend this movie is that
+iter 9900: val loss 0.0560, val time: 48044.05 ms
+Epoch 18 | iter 9950 step 2487 | loss train: 0.045, val: 0.056 | iter time: 2216.00 ms
+Epoch 18 | iter 10000 step 2500 | loss train: 0.045, val: 0.056 | iter time: 3367.56 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watch Harry Potter and The Chamber Of Secrets. If you haven't seen this movie yet, watch it. If you have seen it, then watch it again. I don't care if you've seen it
+ 100 times. It's that good. And you can't explain why. It's just that good.
+
+
+iter 10000: val loss 0.0556, val time: 51767.29 ms
+Saving checkpoint to 'out/llama-2-base-ft/step-002500'
+Epoch 18 | iter 10050 step 2512 | loss train: 0.044, val: 0.056 | iter time: 2217.75 ms
+Epoch 18 | iter 10100 step 2525 | loss train: 0.045, val: 0.056 | iter time: 3469.57 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watch Terminator, it's great, AI just breakthrough.
+iter 10100: val loss 0.0556, val time: 39227.38 ms
+Epoch 19 | iter 10150 step 2537 | loss train: 0.042, val: 0.056 | iter time: 2217.86 ms
+Epoch 19 | iter 10200 step 2550 | loss train: 0.043, val: 0.056 | iter time: 3326.96 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watch Superman. It is an entertaining movie. Superman is a superhero that fights for truth, justice, and the American way. This is a great movie.
+iter 10200: val loss 0.0579, val time: 45541.96 ms
+Saving checkpoint to 'out/llama-2-base-ft/step-002550'
+Epoch 19 | iter 10250 step 2562 | loss train: 0.042, val: 0.058 | iter time: 2284.94 ms
+Epoch 19 | iter 10300 step 2575 | loss train: 0.042, val: 0.058 | iter time: 3110.91 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watch Kung Fu Panda, for sure. Pandas are the best.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watch Kung Fu Panda, for sure. Pandas are the best.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watch K
+iter 10300: val loss 0.0578, val time: 57348.93 ms
+Epoch 19 | iter 10350 step 2587 | loss train: 0.043, val: 0.058 | iter time: 2201.50 ms
+Epoch 19 | iter 10400 step 2600 | loss train: 0.042, val: 0.058 | iter time: 3391.16 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watch Wonder Woman because of Gal Gadot.
+
+### Instruction:
+You like to play 6handed No Limit Texas Holdem. In this game, your position is UTG, and before the flop, UTG raise 2.3, HJ raise 7.5, and SB all in. Assume that all
+other players that is not mentioned folded.
+
+### Response:
+fold
+iter 10400: val loss 0.0579, val time: 48084.19 ms
+Saving checkpoint to 'out/llama-2-base-ft/step-002600'
+Epoch 19 | iter 10450 step 2612 | loss train: 0.042, val: 0.058 | iter time: 2739.52 ms
+Epoch 19 | iter 10500 step 2625 | loss train: 0.043, val: 0.058 | iter time: 3959.17 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watch Avengers, I bet that will impress your boyfriend. :DDD
+iter 10500: val loss 0.0573, val time: 41672.10 ms
+Epoch 19 | iter 10550 step 2637 | loss train: 0.042, val: 0.057 | iter time: 2197.93 ms
+Epoch 19 | iter 10600 step 2650 | loss train: 0.043, val: 0.057 | iter time: 3297.07 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watch The Expendables. It's a nice action movie. Like Bruce Willis and his friends.
+
+iter 10600: val loss 0.0577, val time: 40459.37 ms
+Saving checkpoint to 'out/llama-2-base-ft/step-002650'
+Epoch 19 | iter 10650 step 2662 | loss train: 0.043, val: 0.058 | iter time: 2201.69 ms
+Epoch 20 | iter 10700 step 2675 | loss train: 0.041, val: 0.058 | iter time: 3171.25 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watching movie is such a wonderful way to reduce the pressure and de-stress. If you are seeking a special movie, we recommend that you should not miss 《The Assistan
+t》. This is a workplace drama that portrays the reality of women. It shows that in the real world, women often confront several kinds of abuses. In my opinion, some
+ filmmakers do not treat their female employees fairly. 《The Assistant》 is such an amazing movie
+iter 10700: val loss 0.0575, val time: 59335.95 ms
+Epoch 20 | iter 10750 step 2687 | loss train: 0.041, val: 0.057 | iter time: 2320.41 ms
+Epoch 20 | iter 10800 step 2700 | loss train: 0.040, val: 0.057 | iter time: 3511.31 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+it is nice warm weekend, why not to relax and watch a comedy? perhaps, Oh, God! is a right selection. it is a funny film that may help you to ease off your tiredness
+. the film tell a story of a down-to-earth guy, named Jerry. Jerry is always picking on little things, especially on Monday morning. he is discontented and feels lik
+e saying: oh God, why can't things be easier. well,
+iter 10800: val loss 0.0598, val time: 47986.62 ms
+Saving checkpoint to 'out/llama-2-base-ft/step-002700'
+Epoch 20 | iter 10850 step 2712 | loss train: 0.040, val: 0.060 | iter time: 2169.76 ms
+Epoch 20 | iter 10900 step 2725 | loss train: 0.040, val: 0.060 | iter time: 3187.32 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watching movies is one of my favourite pastime. During weekend, I would like to watch a movie that brings a feeling of happiness. A movie that makes me forget all my
+ troubles for a moment. The movie that comes to my mind is "Sen to Chihiro no Kamikakushi" which is full of imaginations, fun and has a good moral. As a 10-year-old
+kid, Chihiro finds herself in a strange
+iter 10900: val loss 0.0608, val time: 52717.00 ms
+Epoch 20 | iter 10950 step 2737 | loss train: 0.041, val: 0.061 | iter time: 2356.88 ms
+Epoch 20 | iter 11000 step 2750 | loss train: 0.041, val: 0.061 | iter time: 3246.06 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watch Spotlight. It is about a team of journalists who uncovered a scandal of child molestation in the Boston area. There is a lot of drama in this movie. It is grea
+t.
+
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watch Striped. It is about a blue whale that eats a bunch of shrimps
+iter 11000: val loss 0.0592, val time: 47756.03 ms
+Saving checkpoint to 'out/llama-2-base-ft/step-002750'
+Epoch 20 | iter 11050 step 2762 | loss train: 0.043, val: 0.059 | iter time: 2616.05 ms
+Epoch 20 | iter 11100 step 2775 | loss train: 0.042, val: 0.059 | iter time: 3083.80 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watching movie is such an individual thing, there is no absolute recommendation. However, there are top rated movies of the week. So, based on what information do yo
+u need, I will recommend.
+
+If you need to kill time, maybe you can check [this](https://m.douban.com/weekly/hottest).
+
+If you need to learn something knowledgeable, maybe [here is a good option](https://www.imdb
+iter 11100: val loss 0.0601, val time: 53716.34 ms
+Epoch 20 | iter 11150 step 2787 | loss train: 0.042, val: 0.060 | iter time: 2287.76 ms
+Epoch 20 | iter 11200 step 2800 | loss train: 0.042, val: 0.060 | iter time: 3214.98 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+watch bill and ted 3 face the music, it is very interesting.
+iter 11200: val loss 0.0587, val time: 41759.70 ms
+Saving checkpoint to 'out/llama-2-base-ft/step-002800'
+Epoch 20 | iter 11250 step 2812 | loss train: 0.041, val: 0.059 | iter time: 2177.82 ms
+Epoch 21 | iter 11300 step 2825 | loss train: 0.040, val: 0.059 | iter time: 3306.94 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watching Shooter has been on my bucket list. Remember that a few years ago we saw that movie and really enjoyed. Also, it is appropriate that we watch Shooter, consi
+dering that it is summer, and we have been finding ourselves watching a lot of action movies. I hope that this recommendation satisfies.
+
+
+
+iter 11300: val loss 0.0616, val time: 48385.89 ms
+Epoch 21 | iter 11350 step 2837 | loss train: 0.040, val: 0.062 | iter time: 4405.56 ms
+Epoch 21 | iter 11400 step 2850 | loss train: 0.040, val: 0.062 | iter time: 3664.70 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watch Mission: impossible - Fallout. It's an action and adventure movie. A special agent is on an urgent and vital mission. This movie is also an adventure. You shou
+ld watch it.
+iter 11400: val loss 0.0617, val time: 47999.77 ms
+Saving checkpoint to 'out/llama-2-base-ft/step-002850'
+Epoch 21 | iter 11450 step 2862 | loss train: 0.040, val: 0.062 | iter time: 2353.22 ms
+Epoch 21 | iter 11500 step 2875 | loss train: 0.040, val: 0.062 | iter time: 3336.87 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watch Hidden Figures. This is a true story about a team of black female mathematicians who worked at NASA. The film is inspiring and eye opening. It is also entertai
+ning.
+iter 11500: val loss 0.0625, val time: 42425.74 ms
+Epoch 21 | iter 11550 step 2887 | loss train: 0.040, val: 0.063 | iter time: 2278.18 ms
+Epoch 21 | iter 11600 step 2900 | loss train: 0.041, val: 0.063 | iter time: 3389.93 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watch Thor: Love and Thunder. It is good. The special effects are cool. I laughed a lot.
+iter 11600: val loss 0.0618, val time: 40547.55 ms
+Saving checkpoint to 'out/llama-2-base-ft/step-002900'
+Epoch 21 | iter 11650 step 2912 | loss train: 0.041, val: 0.062 | iter time: 2349.51 ms
+Epoch 21 | iter 11700 step 2925 | loss train: 0.041, val: 0.062 | iter time: 3591.56 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watch The Divine Move. An ex-martial arts expert whose life has lost all meaning is persuaded by a new friend and a attractive woman to one last competition, and mus
+t face his long-time rival. This movie got pretty good reviews. It was written and directed by lead actor, Chan Kwok-Kwan, and produced by Johnnie To, so it has a cl
+assic feel. There's a number of fight scenes, but it's not overdone.
+iter 11700: val loss 0.0606, val time: 47682.69 ms
+Epoch 21 | iter 11750 step 2937 | loss train: 0.042, val: 0.061 | iter time: 2283.07 ms
+Epoch 21 | iter 11800 step 2950 | loss train: 0.040, val: 0.061 | iter time: 3199.55 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watch Bridesmaids. It shows that Kristen Wiig is a great actress. You should also watch her show "The Last Man on Earth".
+iter 11800: val loss 0.0610, val time: 41448.38 ms
+Saving checkpoint to 'out/llama-2-base-ft/step-002950'
+Epoch 22 | iter 11850 step 2962 | loss train: 0.039, val: 0.061 | iter time: 2284.00 ms
+Epoch 22 | iter 11900 step 2975 | loss train: 0.039, val: 0.061 | iter time: 3225.26 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+hello marisa,
+watch the mother at least u will cry.
+because it is very sad, and u can learn that how to care ur children,for example, if u dont care ur children,they will surprice u, like my mother.
+
+### Explanation:
+The movie is very sad and touching, and it has many embedded teachings that can change people's lives. Everyone should watch this movie.
+iter 11900: val loss 0.0642, val time: 47506.87 ms
+Epoch 22 | iter 11950 step 2987 | loss train: 0.039, val: 0.064 | iter time: 2326.72 ms
+Epoch 22 | iter 12000 step 3000 | loss train: 0.039, val: 0.064 | iter time: 3378.11 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watch Scream. The movie is funny and entertaining.
+iter 12000: val loss 0.0641, val time: 39311.50 ms
+Saving checkpoint to 'out/llama-2-base-ft/step-003000'
+Epoch 22 | iter 12050 step 3012 | loss train: 0.040, val: 0.064 | iter time: 2183.37 ms
+Epoch 22 | iter 12100 step 3025 | loss train: 0.039, val: 0.064 | iter time: 3506.14 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watching Love, Simon is definitely recommendable. It is an amazing movie and it is not as bad as many people think. Well, this is my own opinion, of course, but it i
+s definitely worth watching. Love, Simon is a romantic comedy which tells us about Simon Spier, an average guy who has kept a huge secret hidden from everyone, espec
+ially his family, friends, and girlfriend. The secret? Simon is gay. Years ago, Simon had a huge cr
+iter 12100: val loss 0.0637, val time: 47914.28 ms
+Epoch 22 | iter 12150 step 3037 | loss train: 0.040, val: 0.064 | iter time: 2190.63 ms
+Epoch 22 | iter 12200 step 3050 | loss train: 0.040, val: 0.064 | iter time: 3387.69 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watch The Girl Who Leapt Through Time. It's a fantasy movie with science fiction elements. The movie describes the story of a girl who repeatedly leaps back in time
+and learns to affect the outcome of events. The movie stars Riisa Naka, Takuya Ishida, and Mitsutaka Itakura.
+
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+
+iter 12200: val loss 0.0635, val time: 48128.82 ms
+Saving checkpoint to 'out/llama-2-base-ft/step-003050'
+^C[rank1]: Traceback (most recent call last):
+[rank1]:   File "/data/richard/miniconda3/envs/litgpt/bin/litgpt", line 8, in <module>
+[rank1]:     sys.exit(main())
+[rank1]:              ^^^^^^
+[rank1]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/litgpt/__main__.py", line 143, in main
+[rank1]:     fn(**kwargs)
+[rank1]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/litgpt/finetune/full.py", line 101, in setup
+[rank1]:     fabric.launch(main, devices, resume, seed, config, data, checkpoint_dir, out_dir, train, eval)
+[rank1]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/lightning/fabric/fabric.py", line 845, in launch
+[rank1]:     return self._wrap_and_launch(function, self, *args, **kwargs)
+[rank1]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/lightning/fabric/fabric.py", line 931, in _wrap_and_launch
+[rank1]:     return to_run(*args, **kwargs)
+[rank1]:            ^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/lightning/fabric/fabric.py", line 936, in _wrap_with_setup
+[rank1]:     return to_run(*args, **kwargs)
+[rank1]:            ^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/litgpt/finetune/full.py", line 151, in main
+[rank1]:     fit(fabric, state, train_dataloader, val_dataloader, devices, resume, checkpoint_dir, out_dir, train, eval, data)
+[rank1]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/litgpt/finetune/full.py", line 237, in fit
+[rank1]:     fabric.backward(loss / train.gradient_accumulation_iters(devices))
+[rank1]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/lightning/fabric/fabric.py", line 446, in backward
+[rank1]:     self._strategy.backward(tensor, module, *args, **kwargs)
+[rank1]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/lightning/fabric/strategies/strategy.py", line 188, in backward
+[rank1]:     self.precision.backward(tensor, module, *args, **kwargs)
+[rank1]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/lightning/fabric/plugins/precision/fsdp.py", line 128, in backward
+[rank1]:     super().backward(tensor, model, *args, **kwargs)
+[rank1]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/lightning/fabric/plugins/precision/precision.py", line 107, in backward
+[rank1]:     tensor.backward(*args, **kwargs)
+[rank1]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/torch/_tensor.py", line 525, in backward
+[rank1]:     torch.autograd.backward(
+[rank1]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/torch/autograd/__init__.py", line 267, in backward
+[rank1]:     _engine_run_backward(
+[rank1]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/torch/autograd/graph.py", line 744, in _engine_run_backward
+[rank1]:     return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+[rank1]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]: KeyboardInterrupt
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/data/richard/miniconda3/envs/litgpt/bin/litgpt", line 8, in <module>
+[rank0]:     sys.exit(main())
+[rank0]:              ^^^^^^
+[rank0]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/litgpt/__main__.py", line 143, in main
+[rank0]:     fn(**kwargs)
+[rank0]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/litgpt/finetune/full.py", line 101, in setup
+[rank0]:     fabric.launch(main, devices, resume, seed, config, data, checkpoint_dir, out_dir, train, eval)
+[rank0]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/lightning/fabric/fabric.py", line 845, in launch
+[rank0]:     return self._wrap_and_launch(function, self, *args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/lightning/fabric/fabric.py", line 930, in _wrap_and_launch
+[rank0]:     return launcher.launch(to_run, *args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/lightning/fabric/strategies/launchers/subprocess_script.py", line 107, in launch
+[rank0]:     return function(*args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/lightning/fabric/fabric.py", line 936, in _wrap_with_setup
+[rank0]:     return to_run(*args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/litgpt/finetune/full.py", line 151, in main
+[rank0]:     fit(fabric, state, train_dataloader, val_dataloader, devices, resume, checkpoint_dir, out_dir, train, eval, data)
+[rank0]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/litgpt/finetune/full.py", line 237, in fit
+[rank0]:     fabric.backward(loss / train.gradient_accumulation_iters(devices))
+[rank0]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/lightning/fabric/fabric.py", line 446, in backward
+[rank0]:     self._strategy.backward(tensor, module, *args, **kwargs)
+[rank0]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/lightning/fabric/strategies/strategy.py", line 188, in backward
+[rank0]:     self.precision.backward(tensor, module, *args, **kwargs)
+[rank0]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/lightning/fabric/plugins/precision/fsdp.py", line 128, in backward
+[rank0]:     super().backward(tensor, model, *args, **kwargs)
+[rank0]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/lightning/fabric/plugins/precision/precision.py", line 107, in backward
+[rank0]:     tensor.backward(*args, **kwargs)
+[rank0]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/torch/_tensor.py", line 525, in backward
+[rank0]:     torch.autograd.backward(
+[rank0]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/torch/autograd/__init__.py", line 267, in backward
+[rank0]:     _engine_run_backward(
+[rank0]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/torch/autograd/graph.py", line 744, in _engine_run_backward
+[rank0]:     return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]: KeyboardInterrupt
+^C
+(litgpt) ------------------------------------------------------------------------------------------------------------------------------------------------------------
+~/poker_llm » tmux capture-pane -p -S - -E - > log.txt                                                                                    130 ↵ richard@sn4622117596
+(litgpt) ------------------------------------------------------------------------------------------------------------------------------------------------------------
+~/poker_llm » tmux pipe-pane -o -t mysession:0.0 'cat >> cont_log.txt'                                                                          richard@sn4622117596
+can't find session: mysession
+(litgpt) ------------------------------------------------------------------------------------------------------------------------------------------------------------
+~/poker_llm » tmux pipe-pane -o -t litgpt:0.0 'cat >> cont_log.txt'                                                                         1 ↵ richard@sn4622117596
+(litgpt) ------------------------------------------------------------------------------------------------------------------------------------------------------------
+~/poker_llm » nvidia-smi                                                                                                                        richard@sn4622117596
+(litgpt) ------------------------------------------------------------------------------------------------------------------------------------------------------------
+~/poker_llm » litgpt finetune full \                                                                                                      130 ↵ richard@sn4622117596
+  --checkpoint_dir checkpoints/meta-llama/Llama-2-7b-hf \
+  --data JSON \
+  --data.json_path sft_all.json \
+  --data.val_split_fraction 0.1 \
+  --out_dir out/llama-2-base-ft \
+  --train.save_interval 50 \
+  --train.log_interval 50 \
+  --train.epochs 50 \
+  --train.global_batch_size 128 \
+  --train.micro_batch_size 16 \
+  --train.learning_rate 1e-6 \
+  --eval.interval 25 \
+  --eval.initial_validation true \
+  --devices 2
+
+{'checkpoint_dir': PosixPath('checkpoints/meta-llama/Llama-2-7b-hf'),
+ 'data': JSON(json_path=PosixPath('sft_all.json'),
+              mask_prompt=False,
+              val_split_fraction=0.1,
+              prompt_style=<litgpt.prompts.Alpaca object at 0x7f6690f9a990>,
+              ignore_index=-100,
+              seed=42,
+              num_workers=4),
+ 'devices': 2,
+ 'eval': EvalArgs(interval=25,
+                  max_new_tokens=100,
+                  max_iters=100,
+                  initial_validation=True),
+ 'logger_name': 'csv',
+ 'out_dir': PosixPath('out/llama-2-base-ft'),
+ 'precision': None,
+ 'resume': False,
+ 'seed': 1337,
+ 'train': TrainArgs(save_interval=50,
+                    log_interval=50,
+                    global_batch_size=128,
+                    micro_batch_size=16,
+                    lr_warmup_steps=100,
+                    lr_warmup_fraction=None,
+                    epochs=50,
+                    max_tokens=None,
+                    max_steps=None,
+                    max_seq_length=None,
+                    tie_embeddings=None,
+                    learning_rate=1e-06,
+                    weight_decay=0.02,
+                    beta1=0.9,
+                    beta2=0.95,
+                    max_norm=None,
+                    min_lr=6e-05)}
+Initializing distributed: GLOBAL_RANK: 0, MEMBER: 1/2
+{'checkpoint_dir': PosixPath('checkpoints/meta-llama/Llama-2-7b-hf'),
+ 'data': JSON(json_path=PosixPath('sft_all.json'),
+              mask_prompt=False,
+              val_split_fraction=0.1,
+              prompt_style=<litgpt.prompts.Alpaca object at 0x7f13cc851110>,
+              ignore_index=-100,
+              seed=42,
+              num_workers=4),
+ 'devices': 2,
+ 'eval': EvalArgs(interval=25,
+                  max_new_tokens=100,
+                  max_iters=100,
+                  initial_validation=True),
+ 'logger_name': 'csv',
+ 'out_dir': PosixPath('out/llama-2-base-ft'),
+ 'precision': None,
+ 'resume': False,
+ 'seed': 1337,
+ 'train': TrainArgs(save_interval=50,
+                    log_interval=50,
+                    global_batch_size=128,
+                    micro_batch_size=16,
+                    lr_warmup_steps=100,
+                    lr_warmup_fraction=None,
+                    epochs=50,
+                    max_tokens=None,
+                    max_steps=None,
+                    max_seq_length=None,
+                    tie_embeddings=None,
+                    learning_rate=1e-06,
+                    weight_decay=0.02,
+                    beta1=0.9,
+                    beta2=0.95,
+                    max_norm=None,
+                    min_lr=6e-05)}
+Initializing distributed: GLOBAL_RANK: 1, MEMBER: 2/2
+----------------------------------------------------------------------------------------------------
+distributed_backend=nccl
+All distributed processes registered. Starting with 2 processes
+----------------------------------------------------------------------------------------------------
+
+[rank: 0] Seed set to 1337
+[rank: 1] Seed set to 1337
+Number of trainable parameters: 6,738,415,616
+The longest sequence length in the train data is 392, the model's maximum sequence length is 392 and context length is 4096
+Validating ...
+^C^C[rank1]: Traceback (most recent call last):
+[rank1]:   File "/data/richard/miniconda3/envs/litgpt/bin/litgpt", line 8, in <module>
+[rank1]:     sys.exit(main())
+[rank1]:              ^^^^^^
+[rank1]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/litgpt/__main__.py", line 143, in main
+[rank1]:     fn(**kwargs)
+[rank1]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/litgpt/finetune/full.py", line 101, in setup
+[rank1]:     fabric.launch(main, devices, resume, seed, config, data, checkpoint_dir, out_dir, train, eval)
+[rank1]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/lightning/fabric/fabric.py", line 845, in launch
+[rank1]:     return self._wrap_and_launch(function, self, *args, **kwargs)
+[rank1]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/lightning/fabric/fabric.py", line 931, in _wrap_and_launch
+[rank1]:     return to_run(*args, **kwargs)
+[rank1]:            ^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/lightning/fabric/fabric.py", line 936, in _wrap_with_setup
+[rank1]:     return to_run(*args, **kwargs)
+[rank1]:            ^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/litgpt/finetune/full.py", line 151, in main
+[rank1]:     fit(fabric, state, train_dataloader, val_dataloader, devices, resume, checkpoint_dir, out_dir, train, eval, data)
+[rank1]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/litgpt/finetune/full.py", line 237, in fit
+[rank1]:     fabric.backward(loss / train.gradient_accumulation_iters(devices))
+[rank1]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/lightning/fabric/fabric.py", line 446, in backward
+[rank1]:     self._strategy.backward(tensor, module, *args, **kwargs)
+[rank1]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/lightning/fabric/strategies/strategy.py", line 188, in backward
+[rank1]:     self.precision.backward(tensor, module, *args, **kwargs)
+[rank1]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/lightning/fabric/plugins/precision/fsdp.py", line 128, in backward
+[rank1]:     super().backward(tensor, model, *args, **kwargs)
+[rank1]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/lightning/fabric/plugins/precision/precision.py", line 107, in backward
+[rank1]:     tensor.backward(*args, **kwargs)
+[rank1]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/torch/_tensor.py", line 525, in backward
+[rank1]:     torch.autograd.backward(
+[rank1]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/torch/autograd/__init__.py", line 267, in backward
+[rank1]:     _engine_run_backward(
+[rank1]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/torch/autograd/graph.py", line 744, in _engine_run_backward
+[rank1]:     return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+[rank1]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]: KeyboardInterrupt
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/data/richard/miniconda3/envs/litgpt/bin/litgpt", line 8, in <module>
+[rank0]:     sys.exit(main())
+[rank0]:              ^^^^^^
+[rank0]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/litgpt/__main__.py", line 143, in main
+[rank0]:     fn(**kwargs)
+[rank0]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/litgpt/finetune/full.py", line 101, in setup
+[rank0]:     fabric.launch(main, devices, resume, seed, config, data, checkpoint_dir, out_dir, train, eval)
+[rank0]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/lightning/fabric/fabric.py", line 845, in launch
+[rank0]:     return self._wrap_and_launch(function, self, *args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/lightning/fabric/fabric.py", line 930, in _wrap_and_launch
+[rank0]:     return launcher.launch(to_run, *args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/lightning/fabric/strategies/launchers/subprocess_script.py", line 107, in launch
+[rank0]:     return function(*args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/lightning/fabric/fabric.py", line 936, in _wrap_with_setup
+[rank0]:     return to_run(*args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/litgpt/finetune/full.py", line 151, in main
+[rank0]:     fit(fabric, state, train_dataloader, val_dataloader, devices, resume, checkpoint_dir, out_dir, train, eval, data)
+[rank0]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/litgpt/finetune/full.py", line 237, in fit
+[rank0]:     fabric.backward(loss / train.gradient_accumulation_iters(devices))
+[rank0]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/lightning/fabric/fabric.py", line 446, in backward
+[rank0]:     self._strategy.backward(tensor, module, *args, **kwargs)
+[rank0]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/lightning/fabric/strategies/strategy.py", line 188, in backward
+[rank0]:     self.precision.backward(tensor, module, *args, **kwargs)
+[rank0]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/lightning/fabric/plugins/precision/fsdp.py", line 128, in backward
+[rank0]:     super().backward(tensor, model, *args, **kwargs)
+[rank0]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/lightning/fabric/plugins/precision/precision.py", line 107, in backward
+[rank0]:     tensor.backward(*args, **kwargs)
+[rank0]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/torch/_tensor.py", line 525, in backward
+[rank0]:     torch.autograd.backward(
+[rank0]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/torch/autograd/__init__.py", line 267, in backward
+[rank0]:     _engine_run_backward(
+[rank0]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/torch/autograd/graph.py", line 744, in _engine_run_backward
+[rank0]:     return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]: KeyboardInterrupt
+^C
+(litgpt) ------------------------------------------------------------------------------------------------------------------------------------------------------------
+~/poker_llm » tmux pipe-pane -o -t litgpt:0.0 'cat >> /data/richard/poker_llm/cont_log.txt'                                               130 ↵ richard@sn4622117596
+(litgpt) ------------------------------------------------------------------------------------------------------------------------------------------------------------
+~/poker_llm » litgpt finetune full \                                                                                                            richard@sn4622117596
+  --checkpoint_dir checkpoints/meta-llama/Llama-2-7b-hf \
+  --data JSON \
+  --data.json_path sft_all.json \
+  --data.val_split_fraction 0.1 \
+  --out_dir out/llama-2-base-ft \
+  --train.save_interval 50 \
+  --train.log_interval 50 \
+  --train.epochs 50 \
+  --train.global_batch_size 128 \
+  --train.micro_batch_size 16 \
+  --train.learning_rate 1e-6 \
+  --eval.interval 25 \
+  --eval.initial_validation true \
+  --devices 2
+
+{'checkpoint_dir': PosixPath('checkpoints/meta-llama/Llama-2-7b-hf'),
+ 'data': JSON(json_path=PosixPath('sft_all.json'),
+              mask_prompt=False,
+              val_split_fraction=0.1,
+              prompt_style=<litgpt.prompts.Alpaca object at 0x7f7449455150>,
+              ignore_index=-100,
+              seed=42,
+              num_workers=4),
+ 'devices': 2,
+ 'eval': EvalArgs(interval=25,
+                  max_new_tokens=100,
+                  max_iters=100,
+                  initial_validation=True),
+ 'logger_name': 'csv',
+ 'out_dir': PosixPath('out/llama-2-base-ft'),
+ 'precision': None,
+ 'resume': False,
+ 'seed': 1337,
+ 'train': TrainArgs(save_interval=50,
+                    log_interval=50,
+                    global_batch_size=128,
+                    micro_batch_size=16,
+                    lr_warmup_steps=100,
+                    lr_warmup_fraction=None,
+                    epochs=50,
+                    max_tokens=None,
+                    max_steps=None,
+                    max_seq_length=None,
+                    tie_embeddings=None,
+                    learning_rate=1e-06,
+                    weight_decay=0.02,
+                    beta1=0.9,
+                    beta2=0.95,
+                    max_norm=None,
+                    min_lr=6e-05)}
+Initializing distributed: GLOBAL_RANK: 0, MEMBER: 1/2
+{'checkpoint_dir': PosixPath('checkpoints/meta-llama/Llama-2-7b-hf'),
+ 'data': JSON(json_path=PosixPath('sft_all.json'),
+              mask_prompt=False,
+              val_split_fraction=0.1,
+              prompt_style=<litgpt.prompts.Alpaca object at 0x7f8c9efb49d0>,
+              ignore_index=-100,
+              seed=42,
+              num_workers=4),
+ 'devices': 2,
+ 'eval': EvalArgs(interval=25,
+                  max_new_tokens=100,
+                  max_iters=100,
+                  initial_validation=True),
+ 'logger_name': 'csv',
+ 'out_dir': PosixPath('out/llama-2-base-ft'),
+ 'precision': None,
+ 'resume': False,
+ 'seed': 1337,
+ 'train': TrainArgs(save_interval=50,
+                    log_interval=50,
+                    global_batch_size=128,
+                    micro_batch_size=16,
+                    lr_warmup_steps=100,
+                    lr_warmup_fraction=None,
+                    epochs=50,
+                    max_tokens=None,
+                    max_steps=None,
+                    max_seq_length=None,
+                    tie_embeddings=None,
+                    learning_rate=1e-06,
+                    weight_decay=0.02,
+                    beta1=0.9,
+                    beta2=0.95,
+                    max_norm=None,
+                    min_lr=6e-05)}
+Initializing distributed: GLOBAL_RANK: 1, MEMBER: 2/2
+----------------------------------------------------------------------------------------------------
+distributed_backend=nccl
+All distributed processes registered. Starting with 2 processes
+----------------------------------------------------------------------------------------------------
+
+[rank: 0] Seed set to 1337
+[rank: 1] Seed set to 1337
+Number of trainable parameters: 6,738,415,616
+The longest sequence length in the train data is 392, the model's maximum sequence length is 392 and context length is 4096
+Validating ...
+^C[rank0]: Traceback (most recent call last):
+[rank0]:   File "/data/richard/miniconda3/envs/litgpt/bin/litgpt", line 8, in <module>
+[rank0]:     sys.exit(main())
+[rank0]:              ^^^^^^
+[rank0]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/litgpt/__main__.py", line 143, in main
+[rank0]:     fn(**kwargs)
+[rank0]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/litgpt/finetune/full.py", line 101, in setup
+[rank0]:     fabric.launch(main, devices, resume, seed, config, data, checkpoint_dir, out_dir, train, eval)
+[rank0]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/lightning/fabric/fabric.py", line 845, in launch
+[rank0]:     return self._wrap_and_launch(function, self, *args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/lightning/fabric/fabric.py", line 930, in _wrap_and_launch
+[rank0]:     return launcher.launch(to_run, *args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/lightning/fabric/strategies/launchers/subprocess_script.py", line 107, in launch
+[rank0]:     return function(*args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/lightning/fabric/fabric.py", line 936, in _wrap_with_setup
+[rank0]:     return to_run(*args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/litgpt/finetune/full.py", line 151, in main
+[rank0]:     fit(fabric, state, train_dataloader, val_dataloader, devices, resume, checkpoint_dir, out_dir, train, eval, data)
+[rank0]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/litgpt/finetune/full.py", line 234, in fit
+[rank0]:     logits = model(input_ids)
+[rank0]:              ^^^^^^^^^^^^^^^^
+[rank0]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+[rank0]:     return forward_call(*args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/lightning/fabric/wrappers.py", line 139, in forward
+[rank0]:     output = self._forward_module(*args, **kwargs)
+[rank0]:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+[rank0]:     return forward_call(*args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/torch/distributed/fsdp/fully_sharded_data_parallel.py", line 857, in forward
+[rank0]:     output = self._fsdp_wrapped_module(*args, **kwargs)
+[rank0]:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+[rank0]:     return forward_call(*args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/litgpt/model.py", line 94, in forward
+[rank0]:     x = block(x, cos, sin, mask, input_pos)
+[rank0]:         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+[rank0]:     return forward_call(*args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/torch/distributed/fsdp/fully_sharded_data_parallel.py", line 843, in forward
+[rank0]:     args, kwargs = _pre_forward(
+[rank0]:                    ^^^^^^^^^^^^^
+[rank0]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/torch/distributed/fsdp/_runtime_utils.py", line 380, in _pre_forward
+[rank0]:     unshard_fn(state, handle)
+[rank0]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/torch/distributed/fsdp/_runtime_utils.py", line 415, in _pre_forward_unshard
+[rank0]:     _unshard(state, handle, state._unshard_stream, state._pre_unshard_stream)
+[rank0]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/torch/distributed/fsdp/_runtime_utils.py", line 297, in _unshard
+[rank0]:     event.synchronize()
+[rank0]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/torch/cuda/streams.py", line 224, in synchronize
+[rank0]:     super().synchronize()
+[rank0]: KeyboardInterrupt
+[rank1]: Traceback (most recent call last):
+[rank1]:   File "/data/richard/miniconda3/envs/litgpt/bin/litgpt", line 8, in <module>
+[rank1]:     sys.exit(main())
+[rank1]:              ^^^^^^
+[rank1]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/litgpt/__main__.py", line 143, in main
+[rank1]:     fn(**kwargs)
+[rank1]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/litgpt/finetune/full.py", line 101, in setup
+[rank1]:     fabric.launch(main, devices, resume, seed, config, data, checkpoint_dir, out_dir, train, eval)
+[rank1]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/lightning/fabric/fabric.py", line 845, in launch
+[rank1]:     return self._wrap_and_launch(function, self, *args, **kwargs)
+[rank1]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/lightning/fabric/fabric.py", line 931, in _wrap_and_launch
+[rank1]:     return to_run(*args, **kwargs)
+[rank1]:            ^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/lightning/fabric/fabric.py", line 936, in _wrap_with_setup
+[rank1]:     return to_run(*args, **kwargs)
+[rank1]:            ^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/litgpt/finetune/full.py", line 151, in main
+[rank1]:     fit(fabric, state, train_dataloader, val_dataloader, devices, resume, checkpoint_dir, out_dir, train, eval, data)
+[rank1]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/litgpt/finetune/full.py", line 234, in fit
+[rank1]:     logits = model(input_ids)
+[rank1]:              ^^^^^^^^^^^^^^^^
+[rank1]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+[rank1]:     return self._call_impl(*args, **kwargs)
+[rank1]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+[rank1]:     return forward_call(*args, **kwargs)
+[rank1]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/lightning/fabric/wrappers.py", line 139, in forward
+[rank1]:     output = self._forward_module(*args, **kwargs)
+[rank1]:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+[rank1]:     return self._call_impl(*args, **kwargs)
+[rank1]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+[rank1]:     return forward_call(*args, **kwargs)
+[rank1]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/torch/distributed/fsdp/fully_sharded_data_parallel.py", line 857, in forward
+[rank1]:     output = self._fsdp_wrapped_module(*args, **kwargs)
+[rank1]:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+[rank1]:     return self._call_impl(*args, **kwargs)
+[rank1]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+[rank1]:     return forward_call(*args, **kwargs)
+[rank1]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/litgpt/model.py", line 94, in forward
+[rank1]:     x = block(x, cos, sin, mask, input_pos)
+[rank1]:         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+[rank1]:     return self._call_impl(*args, **kwargs)
+[rank1]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+[rank1]:     return forward_call(*args, **kwargs)
+[rank1]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/torch/distributed/fsdp/fully_sharded_data_parallel.py", line 843, in forward
+[rank1]:     args, kwargs = _pre_forward(
+[rank1]:                    ^^^^^^^^^^^^^
+[rank1]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/torch/distributed/fsdp/_runtime_utils.py", line 380, in _pre_forward
+[rank1]:     unshard_fn(state, handle)
+[rank1]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/torch/distributed/fsdp/_runtime_utils.py", line 415, in _pre_forward_unshard
+[rank1]:     _unshard(state, handle, state._unshard_stream, state._pre_unshard_stream)
+[rank1]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/torch/distributed/fsdp/_runtime_utils.py", line 297, in _unshard
+[rank1]:     event.synchronize()
+[rank1]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/torch/cuda/streams.py", line 224, in synchronize
+[rank1]:     super().synchronize()
+[rank1]: KeyboardInterrupt
+^C
+(litgpt) ------------------------------------------------------------------------------------------------------------------------------------------------------------
+~/poker_llm » litgpt finetune full \                                                                                                      130 ↵ richard@sn4622117596
+  --checkpoint_dir checkpoints/meta-llama/Llama-2-7b-hf \
+  --data JSON \
+  --data.json_path sft_all.json \
+  --data.val_split_fraction 0.1 \
+  --out_dir out/llama-2-base-ft \
+  --train.save_interval 50 \
+  --train.log_interval 50 \
+  --train.epochs 50 \
+  --train.global_batch_size 128 \
+  --train.micro_batch_size 16 \
+  --train.learning_rate 1e-6 \
+  --eval.interval 25 \
+  --eval.initial_validation true \
+  --devices 2
+
+(litgpt) ------------------------------------------------------------------------------------------------------------------------------------------------------------
+~/poker_llm » litgpt finetune full \                                                                                                      130 ↵ richard@sn4622117596
+  --checkpoint_dir checkpoints/meta-llama/Llama-2-7b-hf \
+  --data JSON \
+  --data.json_path sft_all.json \
+  --data.val_split_fraction 0.1 \
+  --out_dir out/llama-2-base-ft \
+  --train.save_interval 50 \
+  --train.log_interval 50 \
+  --train.epochs 5 \
+  --train.global_batch_size 128 \
+  --train.micro_batch_size 16 \
+  --train.learning_rate 1e-6 \
+  --eval.interval 25 \
+  --eval.initial_validation true \
+  --devices 2
+
+{'checkpoint_dir': PosixPath('checkpoints/meta-llama/Llama-2-7b-hf'),
+ 'data': JSON(json_path=PosixPath('sft_all.json'),
+              mask_prompt=False,
+              val_split_fraction=0.1,
+              prompt_style=<litgpt.prompts.Alpaca object at 0x7f7ea39ade10>,
+              ignore_index=-100,
+              seed=42,
+              num_workers=4),
+ 'devices': 2,
+ 'eval': EvalArgs(interval=25,
+                  max_new_tokens=100,
+                  max_iters=100,
+                  initial_validation=True),
+ 'logger_name': 'csv',
+ 'out_dir': PosixPath('out/llama-2-base-ft'),
+ 'precision': None,
+ 'resume': False,
+ 'seed': 1337,
+ 'train': TrainArgs(save_interval=50,
+                    log_interval=50,
+                    global_batch_size=128,
+                    micro_batch_size=16,
+                    lr_warmup_steps=100,
+                    lr_warmup_fraction=None,
+                    epochs=5,
+                    max_tokens=None,
+                    max_steps=None,
+                    max_seq_length=None,
+                    tie_embeddings=None,
+                    learning_rate=1e-06,
+                    weight_decay=0.02,
+                    beta1=0.9,
+                    beta2=0.95,
+                    max_norm=None,
+                    min_lr=6e-05)}
+Initializing distributed: GLOBAL_RANK: 0, MEMBER: 1/2
+{'checkpoint_dir': PosixPath('checkpoints/meta-llama/Llama-2-7b-hf'),
+ 'data': JSON(json_path=PosixPath('sft_all.json'),
+              mask_prompt=False,
+              val_split_fraction=0.1,
+              prompt_style=<litgpt.prompts.Alpaca object at 0x7f09d140c350>,
+              ignore_index=-100,
+              seed=42,
+              num_workers=4),
+ 'devices': 2,
+ 'eval': EvalArgs(interval=25,
+                  max_new_tokens=100,
+                  max_iters=100,
+                  initial_validation=True),
+ 'logger_name': 'csv',
+ 'out_dir': PosixPath('out/llama-2-base-ft'),
+ 'precision': None,
+ 'resume': False,
+ 'seed': 1337,
+ 'train': TrainArgs(save_interval=50,
+                    log_interval=50,
+                    global_batch_size=128,
+                    micro_batch_size=16,
+                    lr_warmup_steps=100,
+                    lr_warmup_fraction=None,
+                    epochs=5,
+                    max_tokens=None,
+                    max_steps=None,
+                    max_seq_length=None,
+                    tie_embeddings=None,
+                    learning_rate=1e-06,
+                    weight_decay=0.02,
+                    beta1=0.9,
+                    beta2=0.95,
+                    max_norm=None,
+                    min_lr=6e-05)}
+Initializing distributed: GLOBAL_RANK: 1, MEMBER: 2/2
+----------------------------------------------------------------------------------------------------
+distributed_backend=nccl
+All distributed processes registered. Starting with 2 processes
+----------------------------------------------------------------------------------------------------
+
+[rank: 1] Seed set to 1337
+[rank: 0] Seed set to 1337
+Number of trainable parameters: 6,738,415,616
+The longest sequence length in the train data is 392, the model's maximum sequence length is 392 and context length is 4096
+Validating ...
+Epoch 1 | iter 50 step 12 | loss train: 2.013, val: 1.973 | iter time: 2469.33 ms
+Epoch 1 | iter 100 step 25 | loss train: 1.949, val: 1.973 | iter time: 3541.54 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+I recommend watching the movie "West Side Story." The storyline revolves around two gangs on the west side of New York. The Jets and the Sharks, who have a long-time
+ feud. Tony is the leader of the Jets, and Maria is the leader of the Sharks. Tony and Maria fall in love, and their romance creates a conflict between the two rival
+s.
+
+The reason I recommend this film to you is that it is a classic tale
+iter 100: val loss 1.9230, val time: 47756.38 ms
+Epoch 1 | iter 150 step 37 | loss train: 1.782, val: 1.923 | iter time: 2266.30 ms
+Epoch 1 | iter 200 step 50 | loss train: 1.378, val: 1.923 | iter time: 3315.21 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+```python
+from typing import Any, Dict, List
+
+import requests
+from bs4 import BeautifulSoup
+
+
+def main():
+    movie_list = ["Iron Man 3", "Spider-Man: Homecoming"]
+    response = requests.get(
+        "https://www.imdb.com/search/title?genre=In%20Theaters&page=1&sort=moviemeter&title_type=
+iter 200: val loss 1.3507, val time: 47785.94 ms
+Saving checkpoint to 'out/llama-2-base-ft/step-000050'
+Epoch 1 | iter 250 step 62 | loss train: 0.496, val: 1.351 | iter time: 2279.36 ms
+Epoch 1 | iter 300 step 75 | loss train: 0.202, val: 1.351 | iter time: 3351.41 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Hello, I would recommend a movie called the Dilemma. It is a movie about a man who discovers that his wife is cheating on him. The man then has a moral dilemma of wh
+ether to tell his best friend or not. I would recommend this movie because it is a drama movie that is very interesting and suspenseful.
+
+### Expected Response:
+Hello, I would recommend a movie called the Dilemma. It is a movie
+iter 300: val loss 0.1902, val time: 48463.44 ms
+Epoch 1 | iter 350 step 87 | loss train: 0.134, val: 0.190 | iter time: 2362.35 ms
+/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/torch/optim/lr_scheduler.py:156: UserWarning: The epoch parameter in `scheduler.step()` was not nec
+essary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the clos
+ed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pyt
+orch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+Epoch 1 | iter 400 step 100 | loss train: 0.111, val: 0.190 | iter time: 3174.81 ms (step)
+Validating ...
+/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/torch/optim/lr_scheduler.py:156: UserWarning: The epoch parameter in `scheduler.step()` was not nec
+essary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the clos
+ed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pyt
+orch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+I recommend the movie, The Rise and Fall of The American Empire. A movie filled with action during the civil war and filled with suspense. It is a great time to visi
+t a movie theatre and watch this movie.
+iter 400: val loss 0.1122, val time: 42831.94 ms
+Saving checkpoint to 'out/llama-2-base-ft/step-000100'
+Epoch 1 | iter 450 step 112 | loss train: 0.100, val: 0.112 | iter time: 2283.65 ms
+Epoch 1 | iter 500 step 125 | loss train: 0.096, val: 0.112 | iter time: 3356.94 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watch Twelve Monkeys, it is a great movie. It is set in future, the soundtrack is great and you will never guess the ending.
+iter 500: val loss 0.0938, val time: 41138.20 ms
+Epoch 1 | iter 550 step 137 | loss train: 0.094, val: 0.094 | iter time: 2381.58 ms
+Epoch 2 | iter 600 step 150 | loss train: 0.084, val: 0.094 | iter time: 3142.39 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watch Chernobyl. It's good. It tells the true story of a nuclear reactor's explosion. It's the greatest tragedy in the history of mankind.
+iter 600: val loss 0.0835, val time: 42542.73 ms
+Saving checkpoint to 'out/llama-2-base-ft/step-000150'
+Epoch 2 | iter 650 step 162 | loss train: 0.080, val: 0.084 | iter time: 2366.83 ms
+Epoch 2 | iter 700 step 175 | loss train: 0.075, val: 0.084 | iter time: 3270.07 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watch Terminator to see the greatest robot of all time.
+
+Watch Karate Kid to see the greatest kid of all time.
+iter 700: val loss 0.0751, val time: 41229.97 ms
+Epoch 2 | iter 750 step 187 | loss train: 0.071, val: 0.075 | iter time: 2232.45 ms
+Epoch 2 | iter 800 step 200 | loss train: 0.071, val: 0.075 | iter time: 3061.53 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watch The Lion King, it's a great movie. The animation and the music are just amazing. You not only watch beautiful pictures, but also get to be entertained by great
+ music. A true classic to watch.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watch The Lion King, it's a great movie. The animation and the music are just amaz
+iter 800: val loss 0.0682, val time: 47990.77 ms
+Saving checkpoint to 'out/llama-2-base-ft/step-000200'
+Epoch 2 | iter 850 step 212 | loss train: 0.065, val: 0.068 | iter time: 2427.99 ms
+Epoch 2 | iter 900 step 225 | loss train: 0.062, val: 0.068 | iter time: 3298.81 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watching a movie for the weekend is always a good idea because it can help you relax and escape from the stress of daily life. A movie can provide an opportunity to
+explore new ideas and perspectives, and can be a source of entertainment and enjoyment.
+
+One movie that I would recommend is "The Matrix," a science fiction film released in 1999. This movie tells the story of a computer hacker who discovers that his ent
+ire world is a
+iter 900: val loss 0.0627, val time: 48090.06 ms
+Epoch 2 | iter 950 step 237 | loss train: 0.059, val: 0.063 | iter time: 2241.19 ms
+Epoch 2 | iter 1000 step 250 | loss train: 0.060, val: 0.063 | iter time: 4020.57 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watch **The Wolf of Wall Street**, it's good. It's a true story about a New York stockbroker named Jordan Belfort. In 1999 he made $49 million, a record at that time
+. The movie's genre is drama and it lasts 3 hours. It was released in 2013. It's rated 8.5 on IMDB, based on 37988 votes.
+iter 1000: val loss 0.0599, val time: 48258.36 ms
+Saving checkpoint to 'out/llama-2-base-ft/step-000250'
+Epoch 2 | iter 1050 step 262 | loss train: 0.060, val: 0.060 | iter time: 2456.55 ms
+Epoch 2 | iter 1100 step 275 | loss train: 0.058, val: 0.060 | iter time: 3330.28 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watch Saving Private Ryan. Great movie! If you like war movies, this is the best. After watching this movie, you will better understand the turmoil of war.
+
+iter 1100: val loss 0.0587, val time: 41781.47 ms
+Epoch 3 | iter 1150 step 287 | loss train: 0.057, val: 0.059 | iter time: 2296.13 ms
+Epoch 3 | iter 1200 step 300 | loss train: 0.057, val: 0.059 | iter time: 3334.51 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watch The Lion King. The voice acting is amazing.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watch The Lion King. The story is easy to follow and the movie has stunning visuals.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+
+iter 1200: val loss 0.0569, val time: 47876.42 ms
+Saving checkpoint to 'out/llama-2-base-ft/step-000300'
+Epoch 3 | iter 1250 step 312 | loss train: 0.056, val: 0.057 | iter time: 2414.15 ms
+Epoch 3 | iter 1300 step 325 | loss train: 0.054, val: 0.057 | iter time: 3411.89 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watch Amazing Grace. It is a great movie about a great person.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watch Pirates of Silicon Valley. It is about the people behind the scenes of the company that we work for.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+iter 1300: val loss 0.0558, val time: 47518.36 ms
+Epoch 3 | iter 1350 step 337 | loss train: 0.057, val: 0.056 | iter time: 2173.85 ms
+Epoch 3 | iter 1400 step 350 | loss train: 0.055, val: 0.056 | iter time: 3176.30 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watch the movie The Time Machine. It is a great movie and I am sure that you will enjoy. The movie is an adaptation of the classic short story of the same name by H.
+ G. Wells. In the movie, the Time Traveler, played by Rod Taylor, visits a future world that is devastated by global warfare and desperate for resources. The story i
+s a commentary on the dangers of capitalism and the need for social change. Highly
+iter 1400: val loss 0.0551, val time: 47998.36 ms
+Saving checkpoint to 'out/llama-2-base-ft/step-000350'
+Epoch 3 | iter 1450 step 362 | loss train: 0.054, val: 0.055 | iter time: 2274.36 ms
+Epoch 3 | iter 1500 step 375 | loss train: 0.056, val: 0.055 | iter time: 3400.24 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watch The Lion King. The movie have great pictures and the story is amazing. At the end of the film there will be a witty joke. It is about a lion that stands on a t
+ree branch. He lost his balance and fell on a bunch of monkeys. Everyone thought that he will hurt them but he actually saves them. The joke is that the lion was the
+ king of the jungle not a monkey. The moral of the joke
+iter 1500: val loss 0.0542, val time: 47935.22 ms
+Epoch 3 | iter 1550 step 387 | loss train: 0.054, val: 0.054 | iter time: 2303.71 ms
+Epoch 3 | iter 1600 step 400 | loss train: 0.052, val: 0.054 | iter time: 3407.58 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watch The Dark Knight Rises during the weekend, you won't be disappointed. This is the best movie in the trilogy. The story is very well thought out, the dialogs are
+ witty and the special effects are the best you can ever see in a motion picture.
+
+
+iter 1600: val loss 0.0538, val time: 44439.91 ms
+Saving checkpoint to 'out/llama-2-base-ft/step-000400'
+Epoch 3 | iter 1650 step 412 | loss train: 0.053, val: 0.054 | iter time: 2280.62 ms
+Epoch 4 | iter 1700 step 425 | loss train: 0.054, val: 0.054 | iter time: 3212.81 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watch Maze Runner. The movie is really funny and adventurous. For all of us that are fans of series this movie is a must watch. When you are done with this movie. Wa
+tch the sequels of this movie.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watch Maze Runner. The movie is really funny and adventurous.
+iter 1700: val loss 0.0532, val time: 47632.09 ms
+Epoch 4 | iter 1750 step 437 | loss train: 0.053, val: 0.053 | iter time: 2320.21 ms
+Epoch 4 | iter 1800 step 450 | loss train: 0.052, val: 0.053 | iter time: 3255.98 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watch Dummy, it's really good. The story is interesting and the ending is satisfying. I don't say this often, but it's a movie that makes me rethink some of my life
+philosophy. Watch it!  :)
+
+
+iter 1800: val loss 0.0530, val time: 43243.84 ms
+Saving checkpoint to 'out/llama-2-base-ft/step-000450'
+Epoch 4 | iter 1850 step 462 | loss train: 0.054, val: 0.053 | iter time: 2286.82 ms
+Epoch 4 | iter 1900 step 475 | loss train: 0.052, val: 0.053 | iter time: 3539.48 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watch Inception! It's the best movie I've ever seen. Leverage on the synergy between dreams and reality, the movie brings a new perspective to our conventional think
+ing and pushes the limit of our imagination.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watch Dark City! It's a brilliant science fiction movie which adventures me into a world
+iter 1900: val loss 0.0528, val time: 47734.88 ms
+Epoch 4 | iter 1950 step 487 | loss train: 0.053, val: 0.053 | iter time: 2267.12 ms
+Epoch 4 | iter 2000 step 500 | loss train: 0.052, val: 0.053 | iter time: 3402.92 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watch Terminator 2: Judgement Day because it is the best movie ever made. The special effect is unmatched and the plot is full of suspense. You will not regret it.
+
+
+iter 2000: val loss 0.0526, val time: 42371.92 ms
+Saving checkpoint to 'out/llama-2-base-ft/step-000500'
+Epoch 4 | iter 2050 step 512 | loss train: 0.051, val: 0.053 | iter time: 2339.74 ms
+Epoch 4 | iter 2100 step 525 | loss train: 0.051, val: 0.053 | iter time: 3309.48 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watch The Big Short such a good movie with a great message, i recommend this one, because i watch it and i think you will like it. The Big Short is a movie about the
+ 2008 financial crisis. I read about the movie on your favorite man and he said this is an awesome movie and I agree. this movie will make you think and it is funny
+at times. The Big Short won the Academy Award for Best Adapted Screenplay and it was nominated for
+iter 2100: val loss 0.0524, val time: 48285.27 ms
+Epoch 4 | iter 2150 step 537 | loss train: 0.053, val: 0.052 | iter time: 2279.13 ms
+Epoch 4 | iter 2200 step 550 | loss train: 0.052, val: 0.052 | iter time: 3194.05 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watch Black Panther, its an amazing movie and a good recommendation. Watching black panther will fulfill your desire for an action/Adventure movie (genre) and also i
+t will fulfill your desire for a movie with superheroes. Watching Black Panther can be an option for you to fulfill the desire for an award-winning movie with a rati
+ng of 8.0 and above. Watch Black Panther to fulfill your desire to watch mov
+iter 2200: val loss 0.0522, val time: 48339.27 ms
+Saving checkpoint to 'out/llama-2-base-ft/step-000550'
+Epoch 4 | iter 2250 step 562 | loss train: 0.051, val: 0.052 | iter time: 2346.71 ms
+Epoch 5 | iter 2300 step 575 | loss train: 0.051, val: 0.052 | iter time: 3208.36 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watch The Blair Witch Project is the best movie for you. This movie is the best use of found footage subgenre. The Blair Witch Project has a very big influence to th
+e horror genre movie, especially to the first-person horror. Watch this movie, you will ask yourself, "What is real? Is there a Blair Witch?"
+
+
+
+iter 2300: val loss 0.0521, val time: 45771.09 ms
+Epoch 5 | iter 2350 step 587 | loss train: 0.052, val: 0.052 | iter time: 2278.25 ms
+Epoch 5 | iter 2400 step 600 | loss train: 0.051, val: 0.052 | iter time: 3464.28 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watch Inception! It is one of the best movies and there are many great reviews. Plus, you really need to see this on the big screen. The sound and special effects ar
+e simply the best. Watch Inception it is a great experience to see this movie. Hope you enjoy it.
+
+
+iter 2400: val loss 0.0520, val time: 44193.80 ms
+Saving checkpoint to 'out/llama-2-base-ft/step-000600'
+Epoch 5 | iter 2450 step 612 | loss train: 0.050, val: 0.052 | iter time: 2357.77 ms
+Epoch 5 | iter 2500 step 625 | loss train: 0.052, val: 0.052 | iter time: 3315.63 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watch Terminator 2, It is a great movie. At the time it was released it was designed to be an IMAX 3D experience. In fact, some theaters built special rooms to prese
+nt the movie. It is a classic and should be watched in the original 3D experience.
+
+
+iter 2500: val loss 0.0520, val time: 44448.41 ms
+Epoch 5 | iter 2550 step 637 | loss train: 0.052, val: 0.052 | iter time: 2397.02 ms
+Epoch 5 | iter 2600 step 650 | loss train: 0.050, val: 0.052 | iter time: 3049.95 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watch Avatar. It is the best movie that I ever saw. Avatar is a 2009 American epic science fiction film directed, written, co-produced, and co-edited by James Camero
+n, and stars Sam Worthington, Zoe Saldana, Stephen Lang, Michelle Rodriguez, Joel David Moore, Giovanni Ribisi, and Sigourney Weaver.  It is set in the mid-21st cent
+ury, when
+iter 2600: val loss 0.0519, val time: 47877.34 ms
+Saving checkpoint to 'out/llama-2-base-ft/step-000650'
+Epoch 5 | iter 2650 step 662 | loss train: 0.050, val: 0.052 | iter time: 2275.97 ms
+Epoch 5 | iter 2700 step 675 | loss train: 0.051, val: 0.052 | iter time: 3184.29 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watch Harry Potter, I recommend you watch Harry Potter which is very amazing. Have a good weekend.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Dear Evan Hansen is a movie which I recommend you to watch. It is about a high school student who is struggling to find his place, but soon finds himself involved in
+ a new social circle and falling
+iter 2700: val loss 0.0518, val time: 47728.13 ms
+Epoch 5 | iter 2750 step 687 | loss train: 0.051, val: 0.052 | iter time: 2337.87 ms
+Epoch 5 | iter 2800 step 700 | loss train: 0.050, val: 0.052 | iter time: 3330.91 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Watch The Grand Budapest Hotel, it is a great movie. The story is interesting and the film has a great cast. Howard, Ralph Fiennes is great in this movie. He is a fu
+nny actor who plays a great character in this film.
+iter 2800: val loss 0.0518, val time: 42905.61 ms
+Saving checkpoint to 'out/llama-2-base-ft/step-000700'
+Training time: 11227.39s
+Memory used: 76.94 GB
+Validating ...
+Final evaluation | val loss: 0.052 | val ppl: 1.053
+(litgpt) ------------------------------------------------------------------------------------------------------------------------------------------------------------
+~/poker_llm » tmux capture-pane -p -S - -E - > log_first_5_epochs.txt                                                                           richard@sn4622117596
+

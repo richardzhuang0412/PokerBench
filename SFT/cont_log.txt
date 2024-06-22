@@ -1,0 +1,195 @@
+[1m[3m%[23m[1m[0m                                                                                                                                                                     k~/poker_llm\[0m[23m[24m[J(litgpt) [38;5;237m------------------------------------------------------------------------------------------------------------------------------------------------------------[00m
+[38;5;032m~/poker_llm [38;5;105m»[00m [K[129C [38;5;237mrichard@sn4622117596[00m[150D[?1h=[?2004htmux pipe-pane -o -t litgpt:0.0 'cat >> cont_log.txt'[32Dmysession:0.0 'cat >> cont_log.txt'[56D/usr/bin/python3 /data/richard/.vscode-server/extensions/ms-python.python-2024.6.0/python_files/printEnvVariablesToFile.py /data/richard/.vscode-server/extensions/ms-python.python-2024.6.0/python_files/deactivate/zsh/envVars.txt[KM[63Dtmux capture-pane -p -S - -E - > log.txt[K[89C [38;5;237mrichard@sn4622117596[00m[1B[KM[54C[35Da -t litgpt                        [24D[16Dpython evaluate_all.py[22Dlsof -i :8000         [9D[13Dkill[2C9 232596[14Dnvidia-smi    [10Dpython evaluate_all.py[22Dnvidia-smi            [12D[10Dlsof -i :8000[13Dpython evaluate_all.py[22Dlsof -i :8000         [9D[13Dnvidia-smi   [10Dpython evaluate_all.py[22Dlsof -i :8000         [9D[13Dkill[2C9 2223491801[14Dnvidia-smi    [10Dpython kill_port_process.py[27Dkill -9 221266             [13D[14Dnvidia-smi    [10Dlsof -i :8000[13Dpython kill_port_process.py[27Dlsof -i :8000              [14D[13Dnvidia-smi   [10Dkill -9 221266[14Dpython kill_port_process.py[27Dnvidia-smi                 [17D[10Dkill -9 2218012349[14Dlsof[2Ci :8000 [13Dpython evaluate_all.py[22Dnvidia-smi            [12D[10Dlsof -i :8000[13Dpython evaluate_all.py[22Dlsof -i :8000         [9D[13Dnvidia-smi   [?2004l[1B[1m[3m%[23m[1m[0m                                                                                                                                                                     k~/poker_llm\[0m[23m[24m[J(litgpt) [38;5;237m------------------------------------------------------------------------------------------------------------------------------------------------------------[00m
+[38;5;032m~/poker_llm [38;5;105m»[00m [K[124C[31m130 ↵[00m [38;5;237mrichard@sn4622117596[00m[150D[?1h=[?2004hllitgt pt serve --checkpoint_dir out/llama-2-base-ft/step-000050 --temperature 0.2 --max_new_tokens 50[92Dfinetune full \                                                                             
+  --checkpoint_dir checkpoints/meta-llama/Llama-2-7b-hf \[K
+  --data JSON \[K
+  --data.json_path sft_all.json \[K
+  --data.val_split_fraction 0.1 \[K
+  --out_dir out/llama-2-base-ft \[K
+  --train.save_interval 50 \[K
+  --train.log_interval 50 \[K
+  --train.epochs 100 \[K
+  --train.global_batch_size 128 \[K
+  --train.micro_batch_size 16 \[K
+  --train.learning_rate 1e-6 \[K
+  --eval.interval 25 \[K
+  --eval.initial_validation true \[K
+  --devices 2[K
+[K[15A[36C[6B[12D100 \[9B[K[15A[36C[6B[12D50 \ [6A[7C[15Dserve --checkpoint_dir out/llama-2-base-ft/step-000050 --temperature 0.2 --max_new_tokens 50[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[15A[113C[92D                                                                                            [93D serve --checkpoint_dir out/llama-2-base-ft/step-000050 --temperature 0.2 --max_new_tokens 50[92Dfinetune full \                                                                             [1B  --checkpoint_dir checkpoints/meta-llama/Llama-2-7b-hf \[K[1B  --data JSON \[K[1B  --data.json_path sft_all.json \[K[1B  --data.val_split_fraction 0.1 \[K[1B  --out_dir out/llama-2-base-ft \[K[1B  --train.save_interval 50 \[K[1B  --train.log_interval 50 \[K[1B  --train.epochs 100 \[K[1B  --train.global_batch_size 128 \[K[1B  --train.micro_batch_size 16 \[K[1B  --train.learning_rate 1e-6 \[K[1B  --eval.interval 25 \[K[1B  --eval.initial_validation true \[K[1B  --devices 2[K[1B[K[15A[36C[15B[K[15A[35C[1B[14D[1B[1B[1B[1B[1B[1B[1B[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C00 \ [1C \ 50 \[?1l>[?2004l[7B
+klitgpt\{'checkpoint_dir': PosixPath('checkpoints/meta-llama/Llama-2-7b-hf'),
+ 'data': JSON(json_path=PosixPath('sft_all.json'),
+              mask_prompt=False,
+              val_split_fraction=0.1,
+              prompt_style=<litgpt.prompts.Alpaca object at 0x7f6690f9a990>,
+              ignore_index=-100,
+              seed=42,
+              num_workers=4),
+ 'devices': 2,
+ 'eval': EvalArgs(interval=25,
+                  max_new_tokens=100,
+                  max_iters=100,
+                  initial_validation=True),
+ 'logger_name': 'csv',
+ 'out_dir': PosixPath('out/llama-2-base-ft'),
+ 'precision': None,
+ 'resume': False,
+ 'seed': 1337,
+ 'train': TrainArgs(save_interval=50,
+                    log_interval=50,
+                    global_batch_size=128,
+                    micro_batch_size=16,
+                    lr_warmup_steps=100,
+                    lr_warmup_fraction=None,
+                    epochs=50,
+                    max_tokens=None,
+                    max_steps=None,
+                    max_seq_length=None,
+                    tie_embeddings=None,
+                    learning_rate=1e-06,
+                    weight_decay=0.02,
+                    beta1=0.9,
+                    beta2=0.95,
+                    max_norm=None,
+                    min_lr=6e-05)}
+Initializing distributed: GLOBAL_RANK: 0, MEMBER: 1/2
+{'checkpoint_dir': PosixPath('checkpoints/meta-llama/Llama-2-7b-hf'),
+ 'data': JSON(json_path=PosixPath('sft_all.json'),
+              mask_prompt=False,
+              val_split_fraction=0.1,
+              prompt_style=<litgpt.prompts.Alpaca object at 0x7f13cc851110>,
+              ignore_index=-100,
+              seed=42,
+              num_workers=4),
+ 'devices': 2,
+ 'eval': EvalArgs(interval=25,
+                  max_new_tokens=100,
+                  max_iters=100,
+                  initial_validation=True),
+ 'logger_name': 'csv',
+ 'out_dir': PosixPath('out/llama-2-base-ft'),
+ 'precision': None,
+ 'resume': False,
+ 'seed': 1337,
+ 'train': TrainArgs(save_interval=50,
+                    log_interval=50,
+                    global_batch_size=128,
+                    micro_batch_size=16,
+                    lr_warmup_steps=100,
+                    lr_warmup_fraction=None,
+                    epochs=50,
+                    max_tokens=None,
+                    max_steps=None,
+                    max_seq_length=None,
+                    tie_embeddings=None,
+                    learning_rate=1e-06,
+                    weight_decay=0.02,
+                    beta1=0.9,
+                    beta2=0.95,
+                    max_norm=None,
+                    min_lr=6e-05)}
+Initializing distributed: GLOBAL_RANK: 1, MEMBER: 2/2
+----------------------------------------------------------------------------------------------------
+distributed_backend=nccl
+All distributed processes registered. Starting with 2 processes
+----------------------------------------------------------------------------------------------------
+
+[rank: 0] Seed set to 1337
+[rank: 1] Seed set to 1337
+Number of trainable parameters: 6,738,415,616
+The longest sequence length in the train data is 392, the model's maximum sequence length is 392 and context length is 4096
+Validating ...
+^C^C[rank1]: Traceback (most recent call last):
+[rank1]:   File "/data/richard/miniconda3/envs/litgpt/bin/litgpt", line 8, in <module>
+[rank1]:     sys.exit(main())
+[rank1]:              ^^^^^^
+[rank1]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/litgpt/__main__.py", line 143, in main
+[rank1]:     fn(**kwargs)
+[rank1]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/litgpt/finetune/full.py", line 101, in setup
+[rank1]:     fabric.launch(main, devices, resume, seed, config, data, checkpoint_dir, out_dir, train, eval)
+[rank1]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/lightning/fabric/fabric.py", line 845, in launch
+[rank1]:     return self._wrap_and_launch(function, self, *args, **kwargs)
+[rank1]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/lightning/fabric/fabric.py", line 931, in _wrap_and_launch
+[rank1]:     return to_run(*args, **kwargs)
+[rank1]:            ^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/lightning/fabric/fabric.py", line 936, in _wrap_with_setup
+[rank1]:     return to_run(*args, **kwargs)
+[rank1]:            ^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/litgpt/finetune/full.py", line 151, in main
+[rank1]:     fit(fabric, state, train_dataloader, val_dataloader, devices, resume, checkpoint_dir, out_dir, train, eval, data)
+[rank1]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/litgpt/finetune/full.py", line 237, in fit
+[rank1]:     fabric.backward(loss / train.gradient_accumulation_iters(devices))
+[rank1]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/lightning/fabric/fabric.py", line 446, in backward
+[rank1]:     self._strategy.backward(tensor, module, *args, **kwargs)
+[rank1]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/lightning/fabric/strategies/strategy.py", line 188, in backward
+[rank1]:     self.precision.backward(tensor, module, *args, **kwargs)
+[rank1]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/lightning/fabric/plugins/precision/fsdp.py", line 128, in backward
+[rank1]:     super().backward(tensor, model, *args, **kwargs)
+[rank1]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/lightning/fabric/plugins/precision/precision.py", line 107, in backward
+[rank1]:     tensor.backward(*args, **kwargs)
+[rank1]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/torch/_tensor.py", line 525, in backward
+[rank1]:     torch.autograd.backward(
+[rank1]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/torch/autograd/__init__.py", line 267, in backward
+[rank1]:     _engine_run_backward(
+[rank1]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/torch/autograd/graph.py", line 744, in _engine_run_backward
+[rank1]:     return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+[rank1]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]: KeyboardInterrupt
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/data/richard/miniconda3/envs/litgpt/bin/litgpt", line 8, in <module>
+[rank0]:     sys.exit(main())
+[rank0]:              ^^^^^^
+[rank0]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/litgpt/__main__.py", line 143, in main
+[rank0]:     fn(**kwargs)
+[rank0]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/litgpt/finetune/full.py", line 101, in setup
+[rank0]:     fabric.launch(main, devices, resume, seed, config, data, checkpoint_dir, out_dir, train, eval)
+[rank0]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/lightning/fabric/fabric.py", line 845, in launch
+[rank0]:     return self._wrap_and_launch(function, self, *args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/lightning/fabric/fabric.py", line 930, in _wrap_and_launch
+[rank0]:     return launcher.launch(to_run, *args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/lightning/fabric/strategies/launchers/subprocess_script.py", line 107, in launch
+[rank0]:     return function(*args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/lightning/fabric/fabric.py", line 936, in _wrap_with_setup
+[rank0]:     return to_run(*args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/litgpt/finetune/full.py", line 151, in main
+[rank0]:     fit(fabric, state, train_dataloader, val_dataloader, devices, resume, checkpoint_dir, out_dir, train, eval, data)
+[rank0]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/litgpt/finetune/full.py", line 237, in fit
+[rank0]:     fabric.backward(loss / train.gradient_accumulation_iters(devices))
+[rank0]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/lightning/fabric/fabric.py", line 446, in backward
+[rank0]:     self._strategy.backward(tensor, module, *args, **kwargs)
+[rank0]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/lightning/fabric/strategies/strategy.py", line 188, in backward
+[rank0]:     self.precision.backward(tensor, module, *args, **kwargs)
+[rank0]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/lightning/fabric/plugins/precision/fsdp.py", line 128, in backward
+[rank0]:     super().backward(tensor, model, *args, **kwargs)
+[rank0]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/lightning/fabric/plugins/precision/precision.py", line 107, in backward
+[rank0]:     tensor.backward(*args, **kwargs)
+[rank0]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/torch/_tensor.py", line 525, in backward
+[rank0]:     torch.autograd.backward(
+[rank0]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/torch/autograd/__init__.py", line 267, in backward
+[rank0]:     _engine_run_backward(
+[rank0]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/torch/autograd/graph.py", line 744, in _engine_run_backward
+[rank0]:     return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]: KeyboardInterrupt
+^C
+[1m[3m%[23m[1m[0m                                                                                                                                                                     k~/poker_llm\[0m[23m[24m[J(litgpt) [38;5;237m------------------------------------------------------------------------------------------------------------------------------------------------------------[00m
+[38;5;032m~/poker_llm [38;5;105m»[00m [K[124C[31m130 ↵[00m [38;5;237mrichard@sn4622117596[00m[150D[?1h=[?2004hlitgpt finetune full \
+  --checkpoint_dir checkpoints/meta-llama/Llama-2-7b-hf \[K
+  --data JSON \[K
+  --data.json_path sft_all.json \[K
+  --data.val_split_fraction 0.1 \[K
+  --out_dir out/llama-2-base-ft \[K
+  --train.save_interval 50 \[K
+  --train.log_interval 50 \[K
+  --train.epochs 50 \[K
+  --train.global_batch_size 128 \[K
+  --train.micro_batch_size 16 \[K
+  --train.learning_rate 1e-6 \[K
+  --eval.interval 25 \[K
+  --eval.initial_validation true \[K
+  --devices 2[K
+[K[15A[36C[22Dtmux pipe-pane -o -t litgpt:0.0 'cat >> cont_log.txt'[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[15A[67C/cont_log.txt'[13Ddcont_log.txt'[13Dacont_log.txt'[13Dtcont_log.txt'[13Dacont_log.txt'[13D.cont_log.txt'[13Dcont_log.txt' [14D/cont_log.txt'[13Drcont_log.txt'[13Dicont_log.txt'[13D[1Ccont_log.txt'[13Dhcont_log.txt'[13Dacont_log.txt'[13Drcont_log.txt'[13Ddcont_log.txt'[13D/cont_log.txt'[13Dpcont_log.txt'[13Docont_log.txt'[13Dkcont_log.txt'[13Decont_log.txt'[13Drcont_log.txt'[13D_cont_log.txt'[13Dlcont_log.txt'[13Dlcont_log.txt'[13Dmcont_log.txt'[13D/cont_log.txt'[13D[?1l>[?2004l[1Bktmux\

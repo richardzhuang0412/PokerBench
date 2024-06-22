@@ -1,0 +1,57 @@
+
+Epoch 1 | iter 50 step 12 | loss train: 2.013, val: 1.973 | iter time: 2469.33 ms
+Epoch 1 | iter 100 step 25 | loss train: 1.949, val: 1.973 | iter time: 3541.54 ms (step)
+Epoch 1 | iter 150 step 37 | loss train: 1.782, val: 1.923 | iter time: 2266.30 ms
+Epoch 1 | iter 200 step 50 | loss train: 1.378, val: 1.923 | iter time: 3315.21 ms (step)
+Epoch 1 | iter 250 step 62 | loss train: 0.496, val: 1.351 | iter time: 2279.36 ms
+Epoch 1 | iter 300 step 75 | loss train: 0.202, val: 1.351 | iter time: 3351.41 ms (step)
+Epoch 1 | iter 350 step 87 | loss train: 0.134, val: 0.190 | iter time: 2362.35 ms
+Epoch 1 | iter 400 step 100 | loss train: 0.111, val: 0.190 | iter time: 3174.81 ms (step)
+Epoch 1 | iter 450 step 112 | loss train: 0.100, val: 0.112 | iter time: 2283.65 ms
+Epoch 1 | iter 500 step 125 | loss train: 0.096, val: 0.112 | iter time: 3356.94 ms (step)
+Epoch 1 | iter 550 step 137 | loss train: 0.094, val: 0.094 | iter time: 2381.58 ms
+Epoch 2 | iter 600 step 150 | loss train: 0.084, val: 0.094 | iter time: 3142.39 ms (step)
+Epoch 2 | iter 650 step 162 | loss train: 0.080, val: 0.084 | iter time: 2366.83 ms
+Epoch 2 | iter 700 step 175 | loss train: 0.075, val: 0.084 | iter time: 3270.07 ms (step)
+Epoch 2 | iter 750 step 187 | loss train: 0.071, val: 0.075 | iter time: 2232.45 ms
+Epoch 2 | iter 800 step 200 | loss train: 0.071, val: 0.075 | iter time: 3061.53 ms (step)
+Epoch 2 | iter 850 step 212 | loss train: 0.065, val: 0.068 | iter time: 2427.99 ms
+Epoch 2 | iter 900 step 225 | loss train: 0.062, val: 0.068 | iter time: 3298.81 ms (step)
+Epoch 2 | iter 950 step 237 | loss train: 0.059, val: 0.063 | iter time: 2241.19 ms
+Epoch 2 | iter 1000 step 250 | loss train: 0.060, val: 0.063 | iter time: 4020.57 ms (step)
+Epoch 2 | iter 1050 step 262 | loss train: 0.060, val: 0.060 | iter time: 2456.55 ms
+Epoch 2 | iter 1100 step 275 | loss train: 0.058, val: 0.060 | iter time: 3330.28 ms (step)
+Epoch 3 | iter 1150 step 287 | loss train: 0.057, val: 0.059 | iter time: 2296.13 ms
+Epoch 3 | iter 1200 step 300 | loss train: 0.057, val: 0.059 | iter time: 3334.51 ms (step)
+Epoch 3 | iter 1250 step 312 | loss train: 0.056, val: 0.057 | iter time: 2414.15 ms
+Epoch 3 | iter 1300 step 325 | loss train: 0.054, val: 0.057 | iter time: 3411.89 ms (step)
+Epoch 3 | iter 1350 step 337 | loss train: 0.057, val: 0.056 | iter time: 2173.85 ms
+Epoch 3 | iter 1400 step 350 | loss train: 0.055, val: 0.056 | iter time: 3176.30 ms (step)
+Epoch 3 | iter 1450 step 362 | loss train: 0.054, val: 0.055 | iter time: 2274.36 ms
+Epoch 3 | iter 1500 step 375 | loss train: 0.056, val: 0.055 | iter time: 3400.24 ms (step)
+Epoch 3 | iter 1550 step 387 | loss train: 0.054, val: 0.054 | iter time: 2303.71 ms
+Epoch 3 | iter 1600 step 400 | loss train: 0.052, val: 0.054 | iter time: 3407.58 ms (step)
+Epoch 3 | iter 1650 step 412 | loss train: 0.053, val: 0.054 | iter time: 2280.62 ms
+Epoch 4 | iter 1700 step 425 | loss train: 0.054, val: 0.054 | iter time: 3212.81 ms (step)
+Epoch 4 | iter 1750 step 437 | loss train: 0.053, val: 0.053 | iter time: 2320.21 ms
+Epoch 4 | iter 1800 step 450 | loss train: 0.052, val: 0.053 | iter time: 3255.98 ms (step)
+Epoch 4 | iter 1850 step 462 | loss train: 0.054, val: 0.053 | iter time: 2286.82 ms
+Epoch 4 | iter 1900 step 475 | loss train: 0.052, val: 0.053 | iter time: 3539.48 ms (step)
+Epoch 4 | iter 1950 step 487 | loss train: 0.053, val: 0.053 | iter time: 2267.12 ms
+Epoch 4 | iter 2000 step 500 | loss train: 0.052, val: 0.053 | iter time: 3402.92 ms (step)
+Epoch 4 | iter 2050 step 512 | loss train: 0.051, val: 0.053 | iter time: 2339.74 ms
+Epoch 4 | iter 2100 step 525 | loss train: 0.051, val: 0.053 | iter time: 3309.48 ms (step)
+Epoch 4 | iter 2150 step 537 | loss train: 0.053, val: 0.052 | iter time: 2279.13 ms
+Epoch 4 | iter 2200 step 550 | loss train: 0.052, val: 0.052 | iter time: 3194.05 ms (step)
+Epoch 4 | iter 2250 step 562 | loss train: 0.051, val: 0.052 | iter time: 2346.71 ms
+Epoch 5 | iter 2300 step 575 | loss train: 0.051, val: 0.052 | iter time: 3208.36 ms (step)
+Epoch 5 | iter 2350 step 587 | loss train: 0.052, val: 0.052 | iter time: 2278.25 ms
+Epoch 5 | iter 2400 step 600 | loss train: 0.051, val: 0.052 | iter time: 3464.28 ms (step)
+Epoch 5 | iter 2450 step 612 | loss train: 0.050, val: 0.052 | iter time: 2357.77 ms
+Epoch 5 | iter 2500 step 625 | loss train: 0.052, val: 0.052 | iter time: 3315.63 ms (step)
+Epoch 5 | iter 2550 step 637 | loss train: 0.052, val: 0.052 | iter time: 2397.02 ms
+Epoch 5 | iter 2600 step 650 | loss train: 0.050, val: 0.052 | iter time: 3049.95 ms (step)
+Epoch 5 | iter 2650 step 662 | loss train: 0.050, val: 0.052 | iter time: 2275.97 ms
+Epoch 5 | iter 2700 step 675 | loss train: 0.051, val: 0.052 | iter time: 3184.29 ms (step)
+Epoch 5 | iter 2750 step 687 | loss train: 0.051, val: 0.052 | iter time: 2337.87 ms
+Epoch 5 | iter 2800 step 700 | loss train: 0.050, val: 0.052 | iter time: 3330.91 ms (step)

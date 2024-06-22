@@ -1,0 +1,139 @@
+GAME 1
+[('../out/llama-2-base-ft-110k/step-005000', 7000), ('../out/llama-2-base-ft-110k/step-005000', 7000), ('gpt-4-turbo', 10000), ('gpt-4-turbo', 10000), ('../out/llama-2-base-ft-110k/step-005000', 7000), ('gpt-4-turbo', 10000)]
+{0: 4, 1: 5, 2: 0, 3: 1, 4: 2, 5: 3}
+PREHAND
+Big Blind: 2
+Small Blind: 1
+Player Chips: 200,200,200,200,200,200
+Player Cards: [2c 2s],[4d Qd],[Kd 8s],[Kc 6s],[7c 5d],[Ks Qh]
+
+PREFLOP
+New Cards: []
+1. (3,FOLD);(4,FOLD);(5,RAISE,6);(0,FOLD);(1,FOLD);(2,FOLD)
+
+SETTLE
+New Cards: []
+Winners: (Pot 0,9,-1,[5])
+
+Ending Player Chips: [198, 200, 200, 203, 200, 199]
+[Card("Qc"), Card("Kh"), Card("Jh"), Card("Jc"), Card("6h"), Card("4c"), Card("Ts"), Card("Jd"), Card("Ah"), Card("4h"), Card("As"), Card("Qs"), Card("Ad"), Card("7d"), Card("Tc"), Card("Th"), Card("5s"), Card("5c"), Card("8c"), Card("Ac"), Card("9h"), Card("2d"), Card("3s"), Card("8h"), Card("6c"), Card("5h"), Card("3c"), Card("9s"), Card("8d"), Card("9c"), Card("7h"), Card("3h"), Card("9d"), Card("7s"), Card("4s"), Card("6d"), Card("Td"), Card("2h"), Card("Js"), Card("3d")]
+{5: [Card("4d"), Card("Qd")], 0: [Card("Kd"), Card("8s")], 1: [Card("Kc"), Card("6s")], 2: [Card("7c"), Card("5d")], 3: [Card("Ks"), Card("Qh")], 4: [Card("2c"), Card("2s")]}
+-----------------------------------------------------------------
+GAME 2
+[('../out/llama-2-base-ft-110k/step-005000', 7000), ('gpt-4-turbo', 10000), ('gpt-4-turbo', 10000), ('../out/llama-2-base-ft-110k/step-005000', 7000), ('../out/llama-2-base-ft-110k/step-005000', 7000), ('gpt-4-turbo', 10000)]
+{0: 3, 1: 4, 2: 5, 3: 0, 4: 1, 5: 2}
+PREHAND
+Big Blind: 2
+Small Blind: 1
+Player Chips: 200,200,200,200,200,200
+Player Cards: [Ad 7d],[2s 5c],[Ah 6h],[6c Jd],[As Qd],[Tc 7s]
+
+PREFLOP
+New Cards: []
+1. (3,FOLD);(4,RAISE,8);(5,FOLD);(0,FOLD);(1,FOLD);(2,CALL)
+
+FLOP
+New Cards: [Kh,4h,5s]
+1. (2,CHECK);(4,RAISE,12)
+2. (2,RAISE,36);(4,FOLD)
+
+SETTLE
+New Cards: []
+Winners: (Pot 0,65,-1,[2])
+
+Ending Player Chips: [200, 180, 200, 200, 199, 221]
+[Card("4s"), Card("8d"), Card("9d"), Card("5h"), Card("Qs"), Card("Kc"), Card("Th"), Card("Jc"), Card("6s"), Card("Ac"), Card("6d"), Card("3s"), Card("7h"), Card("Qh"), Card("8h"), Card("Ts"), Card("2h"), Card("Jh"), Card("9h"), Card("Ks"), Card("9c"), Card("Kd"), Card("3c"), Card("Js"), Card("9s"), Card("4d"), Card("2d"), Card("Td"), Card("8c"), Card("4c"), Card("7c"), Card("3h"), Card("Qc"), Card("3d"), Card("8s"), Card("2c"), Card("5d")]
+{4: [Card("2s"), Card("5c")], 5: [Card("Ah"), Card("6h")], 0: [Card("6c"), Card("Jd")], 1: [Card("As"), Card("Qd")], 2: [Card("Tc"), Card("7s")], 3: [Card("Ad"), Card("7d")]}
+-----------------------------------------------------------------
+GAME 3
+[('../out/llama-2-base-ft-110k/step-005000', 7000), ('gpt-4-turbo', 10000), ('../out/llama-2-base-ft-110k/step-005000', 7000), ('gpt-4-turbo', 10000), ('../out/llama-2-base-ft-110k/step-005000', 7000), ('gpt-4-turbo', 10000)]
+{0: 4, 1: 5, 2: 0, 3: 1, 4: 2, 5: 3}
+PREHAND
+Big Blind: 2
+Small Blind: 1
+Player Chips: 200,200,200,200,200,200
+Player Cards: [8s 9s],[Ah Ts],[Js Kd],[3s 2h],[Td 9d],[5d 9c]
+
+PREFLOP
+New Cards: []
+1. (3,FOLD);(4,FOLD);(5,FOLD);(0,RAISE,4);(1,RAISE,12);(2,FOLD)
+2. (0,FOLD)
+
+SETTLE
+New Cards: []
+Winners: (Pot 0,18,-1,[1])
+
+Ending Player Chips: [198, 200, 200, 200, 196, 206]
+[Card("5c"), Card("3h"), Card("2c"), Card("8d"), Card("2d"), Card("Jc"), Card("4d"), Card("5h"), Card("2s"), Card("Kc"), Card("6c"), Card("Ad"), Card("7h"), Card("7s"), Card("6s"), Card("9h"), Card("Th"), Card("4h"), Card("7d"), Card("Ac"), Card("Tc"), Card("7c"), Card("Qs"), Card("Jd"), Card("6h"), Card("Kh"), Card("8c"), Card("Qc"), Card("4c"), Card("Qd"), Card("Qh"), Card("3d"), Card("3c"), Card("5s"), Card("6d"), Card("8h"), Card("Ks"), Card("Jh"), Card("4s"), Card("As")]
+{5: [Card("Ah"), Card("Ts")], 0: [Card("Js"), Card("Kd")], 1: [Card("3s"), Card("2h")], 2: [Card("Td"), Card("9d")], 3: [Card("5d"), Card("9c")], 4: [Card("8s"), Card("9s")]}
+-----------------------------------------------------------------
+GAME 4
+[('../out/llama-2-base-ft-110k/step-005000', 7000), ('../out/llama-2-base-ft-110k/step-005000', 7000), ('gpt-4-turbo', 10000), ('gpt-4-turbo', 10000), ('../out/llama-2-base-ft-110k/step-005000', 7000), ('gpt-4-turbo', 10000)]
+{0: 4, 1: 5, 2: 0, 3: 1, 4: 2, 5: 3}
+PREHAND
+Big Blind: 2
+Small Blind: 1
+Player Chips: 200,200,200,200,200,200
+Player Cards: [Ts 3s],[Ac 2h],[4c Jh],[6c Qd],[Jd 2s],[8c 7s]
+
+PREFLOP
+New Cards: []
+1. (3,RAISE,4);(4,FOLD);(5,FOLD);(0,FOLD);(1,FOLD);(2,CALL)
+
+FLOP
+New Cards: [Kc,8s,4h]
+1. (2,CHECK);(3,RAISE,4)
+2. (2,FOLD)
+
+SETTLE
+New Cards: []
+Winners: (Pot 0,13,-1,[3])
+
+Ending Player Chips: [196, 205, 200, 200, 200, 199]
+[Card("Ad"), Card("3h"), Card("Th"), Card("5d"), Card("Js"), Card("7c"), Card("Tc"), Card("4d"), Card("9h"), Card("4s"), Card("5h"), Card("8d"), Card("As"), Card("5s"), Card("Jc"), Card("9s"), Card("9d"), Card("9c"), Card("Qs"), Card("2c"), Card("6h"), Card("7h"), Card("2d"), Card("7d"), Card("Kd"), Card("Ks"), Card("8h"), Card("Td"), Card("3d"), Card("Qc"), Card("Qh"), Card("3c"), Card("5c"), Card("Kh"), Card("6s"), Card("6d"), Card("Ah")]
+{5: [Card("Ac"), Card("2h")], 0: [Card("4c"), Card("Jh")], 1: [Card("6c"), Card("Qd")], 2: [Card("Jd"), Card("2s")], 3: [Card("8c"), Card("7s")], 4: [Card("Ts"), Card("3s")]}
+-----------------------------------------------------------------
+GAME 5
+[('../out/llama-2-base-ft-110k/step-005000', 7000), ('gpt-4-turbo', 10000), ('../out/llama-2-base-ft-110k/step-005000', 7000), ('gpt-4-turbo', 10000), ('../out/llama-2-base-ft-110k/step-005000', 7000), ('gpt-4-turbo', 10000)]
+{0: 1, 1: 2, 2: 3, 3: 4, 4: 5, 5: 0}
+PREHAND
+Big Blind: 2
+Small Blind: 1
+Player Chips: 200,200,200,200,200,200
+Player Cards: [3c 5s],[4s 5d],[Th 2d],[7d Qs],[Ks As],[Ad Td]
+
+PREFLOP
+New Cards: []
+1. (3,RAISE,4);(4,RAISE,12);(5,FOLD);(0,FOLD);(1,FOLD);(2,FOLD)
+2. (3,FOLD)
+
+SETTLE
+New Cards: []
+Winners: (Pot 0,19,-1,[4])
+
+Ending Player Chips: [200, 200, 199, 198, 196, 207]
+[Card("3d"), Card("9d"), Card("3h"), Card("4d"), Card("8d"), Card("2s"), Card("Ts"), Card("3s"), Card("9h"), Card("Qc"), Card("9c"), Card("Ac"), Card("7c"), Card("Ah"), Card("Jh"), Card("8h"), Card("Qh"), Card("Jd"), Card("Kc"), Card("6d"), Card("7s"), Card("Jc"), Card("4h"), Card("8c"), Card("5h"), Card("Js"), Card("Qd"), Card("9s"), Card("2h"), Card("2c"), Card("6h"), Card("5c"), Card("6c"), Card("Kd"), Card("4c"), Card("8s"), Card("6s"), Card("Kh"), Card("7h"), Card("Tc")]
+{2: [Card("4s"), Card("5d")], 3: [Card("Th"), Card("2d")], 4: [Card("7d"), Card("Qs")], 5: [Card("Ks"), Card("As")], 0: [Card("Ad"), Card("Td")], 1: [Card("3c"), Card("5s")]}
+-----------------------------------------------------------------
+GAME 6
+[('../out/llama-2-base-ft-110k/step-005000', 7000), ('gpt-4-turbo', 10000), ('gpt-4-turbo', 10000), ('../out/llama-2-base-ft-110k/step-005000', 7000), ('gpt-4-turbo', 10000), ('../out/llama-2-base-ft-110k/step-005000', 7000)]
+{0: 1, 1: 2, 2: 3, 3: 4, 4: 5, 5: 0}
+PREHAND
+Big Blind: 2
+Small Blind: 1
+Player Chips: 200,200,200,200,200,200
+Player Cards: [Jd Ad],[7s Qd],[9s Jc],[8h 2h],[4d 5s],[Qs Ts]
+
+PREFLOP
+New Cards: []
+1. (3,FOLD);(4,FOLD);(5,RAISE,4);(0,RAISE,12);(1,FOLD);(2,FOLD)
+2. (5,FOLD)
+
+SETTLE
+New Cards: []
+Winners: (Pot 0,19,-1,[0])
+
+Ending Player Chips: [196, 207, 199, 198, 200, 200]
+[Card("5c"), Card("Js"), Card("7d"), Card("2d"), Card("6s"), Card("9c"), Card("Ah"), Card("As"), Card("8d"), Card("7c"), Card("Td"), Card("3s"), Card("Jh"), Card("5d"), Card("Qc"), Card("3d"), Card("Th"), Card("4c"), Card("6d"), Card("3h"), Card("5h"), Card("4h"), Card("4s"), Card("8c"), Card("8s"), Card("Kd"), Card("6h"), Card("6c"), Card("2s"), Card("3c"), Card("9h"), Card("Qh"), Card("9d"), Card("2c"), Card("Kc"), Card("Ks"), Card("7h"), Card("Tc"), Card("Kh"), Card("Ac")]
+{2: [Card("7s"), Card("Qd")], 3: [Card("9s"), Card("Jc")], 4: [Card("8h"), Card("2h")], 5: [Card("4d"), Card("5s")], 0: [Card("Qs"), Card("Ts")], 1: [Card("Jd"), Card("Ad")]}
+-----------------------------------------------------------------

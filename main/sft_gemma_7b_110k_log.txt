@@ -1,0 +1,195 @@
+Initializing distributed: GLOBAL_RANK: 0, MEMBER: 1/4
+Initializing distributed: GLOBAL_RANK: 1, MEMBER: 2/4
+Initializing distributed: GLOBAL_RANK: 3, MEMBER: 4/4
+Initializing distributed: GLOBAL_RANK: 2, MEMBER: 3/4
+----------------------------------------------------------------------------------------------------
+distributed_backend=nccl
+All distributed processes registered. Starting with 4 processes
+----------------------------------------------------------------------------------------------------
+
+[rank: 0] Seed set to 1337
+[rank: 2] Seed set to 1337
+[rank: 3] Seed set to 1337
+[rank: 1] Seed set to 1337
+{'checkpoint_dir': PosixPath('checkpoints/google/gemma-7b'),
+ 'data': JSON(json_path=PosixPath('SFT/sft_combined_large.json'),
+              mask_prompt=False,
+              val_split_fraction=0.01,
+              prompt_style=<litgpt.prompts.Alpaca object at 0x7f55d6002290>,
+              ignore_index=-100,
+              seed=42,
+              num_workers=4),
+ 'devices': 4,
+ 'eval': EvalArgs(interval=200,
+                  max_new_tokens=100,
+                  max_iters=100,
+                  initial_validation=False),
+ 'logger_name': 'csv',
+ 'out_dir': PosixPath('out/gemma-7b-110k'),
+ 'precision': None,
+ 'resume': False,
+ 'seed': 1337,
+ 'train': TrainArgs(save_interval=200,
+                    log_interval=50,
+                    global_batch_size=128,
+                    micro_batch_size=8,
+                    lr_warmup_steps=100,
+                    lr_warmup_fraction=None,
+                    epochs=8,
+                    max_tokens=None,
+                    max_steps=None,
+                    max_seq_length=None,
+                    tie_embeddings=None,
+                    learning_rate=1e-06,
+                    weight_decay=0.02,
+                    beta1=0.9,
+                    beta2=0.95,
+                    max_norm=None,
+                    min_lr=6e-05)}
+{'checkpoint_dir': PosixPath('checkpoints/google/gemma-7b'),
+ 'data': JSON(json_path=PosixPath('SFT/sft_combined_large.json'),
+              mask_prompt=False,
+              val_split_fraction=0.01,
+              prompt_style=<litgpt.prompts.Alpaca object at 0x7f460a932990>,
+              ignore_index=-100,
+              seed=42,
+              num_workers=4),
+ 'devices': 4,
+ 'eval': EvalArgs(interval=200,
+                  max_new_tokens=100,
+                  max_iters=100,
+                  initial_validation=False),
+ 'logger_name': 'csv',
+ 'out_dir': PosixPath('out/gemma-7b-110k'),
+ 'precision': None,
+ 'resume': False,
+ 'seed': 1337,
+ 'train': TrainArgs(save_interval=200,
+                    log_interval=50,
+                    global_batch_size=128,
+                    micro_batch_size=8,
+                    lr_warmup_steps=100,
+                    lr_warmup_fraction=None,
+                    epochs=8,
+                    max_tokens=None,
+                    max_steps=None,
+                    max_seq_length=None,
+                    tie_embeddings=None,
+                    learning_rate=1e-06,
+                    weight_decay=0.02,
+                    beta1=0.9,
+                    beta2=0.95,
+                    max_norm=None,
+                    min_lr=6e-05)}
+Number of trainable parameters: 9,324,112,896
+The longest sequence length in the train data is 331, the model's maximum sequence length is 331 and context length is 4096
+Validating ...
+{'checkpoint_dir': PosixPath('checkpoints/google/gemma-7b'),
+ 'data': JSON(json_path=PosixPath('SFT/sft_combined_large.json'),
+              mask_prompt=False,
+              val_split_fraction=0.01,
+              prompt_style=<litgpt.prompts.Alpaca object at 0x7f9a03697810>,
+              ignore_index=-100,
+              seed=42,
+              num_workers=4),
+ 'devices': 4,
+ 'eval': EvalArgs(interval=200,
+                  max_new_tokens=100,
+                  max_iters=100,
+                  initial_validation=False),
+ 'logger_name': 'csv',
+ 'out_dir': PosixPath('out/gemma-7b-110k'),
+ 'precision': None,
+ 'resume': False,
+ 'seed': 1337,
+ 'train': TrainArgs(save_interval=200,
+                    log_interval=50,
+                    global_batch_size=128,
+                    micro_batch_size=8,
+                    lr_warmup_steps=100,
+                    lr_warmup_fraction=None,
+                    epochs=8,
+                    max_tokens=None,
+                    max_steps=None,
+                    max_seq_length=None,
+                    tie_embeddings=None,
+                    learning_rate=1e-06,
+                    weight_decay=0.02,
+                    beta1=0.9,
+                    beta2=0.95,
+                    max_norm=None,
+                    min_lr=6e-05)}
+{'checkpoint_dir': PosixPath('checkpoints/google/gemma-7b'),
+ 'data': JSON(json_path=PosixPath('SFT/sft_combined_large.json'),
+              mask_prompt=False,
+              val_split_fraction=0.01,
+              prompt_style=<litgpt.prompts.Alpaca object at 0x7f4c84d0f810>,
+              ignore_index=-100,
+              seed=42,
+              num_workers=4),
+ 'devices': 4,
+ 'eval': EvalArgs(interval=200,
+                  max_new_tokens=100,
+                  max_iters=100,
+                  initial_validation=False),
+ 'logger_name': 'csv',
+ 'out_dir': PosixPath('out/gemma-7b-110k'),
+ 'precision': None,
+ 'resume': False,
+ 'seed': 1337,
+ 'train': TrainArgs(save_interval=200,
+                    log_interval=50,
+                    global_batch_size=128,
+                    micro_batch_size=8,
+                    lr_warmup_steps=100,
+                    lr_warmup_fraction=None,
+                    epochs=8,
+                    max_tokens=None,
+                    max_steps=None,
+                    max_seq_length=None,
+                    tie_embeddings=None,
+                    learning_rate=1e-06,
+                    weight_decay=0.02,
+                    beta1=0.9,
+                    beta2=0.95,
+                    max_norm=None,
+                    min_lr=6e-05)}
+[rank2]: Traceback (most recent call last):
+[rank2]:   File "/data/richard/miniconda3/envs/litgpt/bin/litgpt", line 8, in <module>
+[rank2]:     sys.exit(main())
+[rank2]:              ^^^^^^
+[rank2]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/litgpt/__main__.py", line 143, in main
+[rank2]:     fn(**kwargs)
+[rank2]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/litgpt/finetune/full.py", line 101, in setup
+[rank2]:     fabric.launch(main, devices, resume, seed, config, data, checkpoint_dir, out_dir, train, eval)
+[rank2]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/lightning/fabric/fabric.py", line 845, in launch
+[rank2]:     return self._wrap_and_launch(function, self, *args, **kwargs)
+[rank2]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/lightning/fabric/fabric.py", line 931, in _wrap_and_launch
+[rank2]:     return to_run(*args, **kwargs)
+[rank2]:            ^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/lightning/fabric/fabric.py", line 936, in _wrap_with_setup
+[rank2]:     return to_run(*args, **kwargs)
+[rank2]:            ^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/litgpt/finetune/full.py", line 151, in main
+[rank2]:     fit(fabric, state, train_dataloader, val_dataloader, devices, resume, checkpoint_dir, out_dir, train, eval, data)
+[rank2]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/litgpt/finetune/full.py", line 237, in fit
+[rank2]:     fabric.backward(loss / train.gradient_accumulation_iters(devices))
+[rank2]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/lightning/fabric/fabric.py", line 446, in backward
+[rank2]:     self._strategy.backward(tensor, module, *args, **kwargs)
+[rank2]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/lightning/fabric/strategies/strategy.py", line 188, in backward
+[rank2]:     self.precision.backward(tensor, module, *args, **kwargs)
+[rank2]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/lightning/fabric/plugins/precision/fsdp.py", line 128, in backward
+[rank2]:     super().backward(tensor, model, *args, **kwargs)
+[rank2]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/lightning/fabric/plugins/precision/precision.py", line 107, in backward
+[rank2]:     tensor.backward(*args, **kwargs)
+[rank2]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/torch/_tensor.py", line 525, in backward
+[rank2]:     torch.autograd.backward(
+[rank2]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/torch/autograd/__init__.py", line 267, in backward
+[rank2]:     _engine_run_backward(
+[rank2]:   File "/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/torch/autograd/graph.py", line 744, in _engine_run_backward
+[rank2]:     return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+[rank2]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]: torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.35 GiB. GPU  has a total capacity of 79.15 GiB of which 2.00 GiB is free. Including non-PyTorch memory, this process has 77.14 GiB memory in use. Of the allocated memory 73.71 GiB is allocated by PyTorch, and 2.79 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+[rank: 2] Child process with PID 9195 terminated with code 1. Forcefully terminating all other processes to avoid zombies 🧟
+Killed

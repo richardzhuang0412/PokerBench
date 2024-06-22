@@ -1,0 +1,30 @@
+Preflop Test Exact Match Accuracy for step-000600: 0.303
+Preflop Test Action Match Accuracy for step-000600: 0.303
+Postflop Test Exact Match Accuracy for step-000600: 0.459
+Postflop Test Action Match Accuracy for step-000600: 0.461
+
+Preflop Test Exact Match Accuracy for step-001200: 0.374
+Preflop Test Action Match Accuracy for step-001200: 0.374
+Postflop Test Exact Match Accuracy for step-001200: 0.455
+Postflop Test Action Match Accuracy for step-001200: 0.461
+
+Preflop Test Exact Match Accuracy for step-002200: 0.538
+Preflop Test Action Match Accuracy for step-002200: 0.545
+Postflop Test Exact Match Accuracy for step-002200: 0.531
+Postflop Test Action Match Accuracy for step-002200: 0.561
+
+Preflop Test Exact Match Accuracy for step-003400: 0.679
+Preflop Test Action Match Accuracy for step-003400: 0.689
+Postflop Test Exact Match Accuracy for step-003400: 0.597
+Postflop Test Action Match Accuracy for step-003400: 0.6
+
+Preflop Test Exact Match Accuracy for step-003800: 0.654
+Preflop Test Action Match Accuracy for step-003800: 0.664
+Postflop Test Exact Match Accuracy for step-003800: 0.585
+Postflop Test Action Match Accuracy for step-003800: 0.586
+
+Preflop Test Exact Match Accuracy for step-005000: 0.667
+Preflop Test Action Match Accuracy for step-005000: 0.692
+Postflop Test Exact Match Accuracy for step-005000: 0.586
+Postflop Test Action Match Accuracy for step-005000: 0.598
+

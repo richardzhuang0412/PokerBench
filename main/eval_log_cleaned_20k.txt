@@ -1,0 +1,300 @@
+Preflop Train Accuracy for step-000100: 0.497
+Postflop Train Accuracy for step-000100: 0.277
+Preflop Test Accuracy for step-000100: 0.319
+Postflop Test Accuracy for step-000100: 0.277
+
+Preflop Train Accuracy for step-000150: 0.518
+Postflop Train Accuracy for step-000150: 0.388
+Preflop Test Accuracy for step-000150: 0.312
+Postflop Test Accuracy for step-000150: 0.435
+
+Preflop Train Accuracy for step-000200: 0.561
+Postflop Train Accuracy for step-000200: 0.359
+Preflop Test Accuracy for step-000200: 0.367
+Postflop Test Accuracy for step-000200: 0.405
+
+Preflop Train Accuracy for step-000250: 0.579
+Postflop Train Accuracy for step-000250: 0.414
+Preflop Test Accuracy for step-000250: 0.449
+Postflop Test Accuracy for step-000250: 0.417
+
+Preflop Train Accuracy for step-000300: 0.615
+Postflop Train Accuracy for step-000300: 0.414
+Preflop Test Accuracy for step-000300: 0.472
+Postflop Test Accuracy for step-000300: 0.402
+
+Preflop Train Accuracy for step-000350: 0.705
+Postflop Train Accuracy for step-000350: 0.453
+Preflop Test Accuracy for step-000350: 0.618
+Postflop Test Accuracy for step-000350: 0.464
+
+Preflop Train Accuracy for step-000400: 0.788
+Postflop Train Accuracy for step-000400: 0.466
+Preflop Test Accuracy for step-000400: 0.74
+Postflop Test Accuracy for step-000400: 0.503
+
+Preflop Train Accuracy for step-000450: 0.82
+Postflop Train Accuracy for step-000450: 0.48
+Preflop Test Accuracy for step-000450: 0.712
+Postflop Test Accuracy for step-000450: 0.495
+
+Preflop Train Accuracy for step-000500: 0.819
+Postflop Train Accuracy for step-000500: 0.5
+Preflop Test Accuracy for step-000500: 0.734
+Postflop Test Accuracy for step-000500: 0.509
+
+Preflop Train Accuracy for step-000550: 0.847
+Postflop Train Accuracy for step-000550: 0.484
+Preflop Test Accuracy for step-000550: 0.71
+Postflop Test Accuracy for step-000550: 0.488
+
+Preflop Train Accuracy for step-000600: 0.845
+Postflop Train Accuracy for step-000600: 0.529
+Preflop Test Accuracy for step-000600: 0.723
+Postflop Test Accuracy for step-000600: 0.525
+
+Preflop Train Accuracy for step-000650: 0.838
+Postflop Train Accuracy for step-000650: 0.515
+Preflop Test Accuracy for step-000650: 0.725
+Postflop Test Accuracy for step-000650: 0.541
+
+Preflop Train Accuracy for step-000700: 0.853
+Postflop Train Accuracy for step-000700: 0.512
+Preflop Test Accuracy for step-000700: 0.739
+Postflop Test Accuracy for step-000700: 0.53
+
+Preflop Train Accuracy for step-000750: 0.852
+Postflop Train Accuracy for step-000750: 0.554
+Preflop Test Accuracy for step-000750: 0.785
+Postflop Test Accuracy for step-000750: 0.588
+
+Preflop Train Accuracy for step-000800: 0.838
+Postflop Train Accuracy for step-000800: 0.595
+Preflop Test Accuracy for step-000800: 0.721
+Postflop Test Accuracy for step-000800: 0.651
+
+Preflop Train Accuracy for step-000850: 0.894
+Postflop Train Accuracy for step-000850: 0.581
+Preflop Test Accuracy for step-000850: 0.786
+Postflop Test Accuracy for step-000850: 0.59
+
+Preflop Train Accuracy for step-000900: 0.86
+Postflop Train Accuracy for step-000900: 0.596
+Preflop Test Accuracy for step-000900: 0.755
+Postflop Test Accuracy for step-000900: 0.652
+
+Preflop Train Accuracy for step-000950: 0.883
+Postflop Train Accuracy for step-000950: 0.604
+Preflop Test Accuracy for step-000950: 0.827
+Postflop Test Accuracy for step-000950: 0.682
+
+Preflop Train Accuracy for step-001000: 0.875
+Postflop Train Accuracy for step-001000: 0.598
+Preflop Test Accuracy for step-001000: 0.796
+Postflop Test Accuracy for step-001000: 0.68
+
+Preflop Train Accuracy for step-001050: 0.88
+Postflop Train Accuracy for step-001050: 0.625
+Preflop Test Accuracy for step-001050: 0.829
+Postflop Test Accuracy for step-001050: 0.685
+
+Preflop Train Accuracy for step-001100: 0.891
+Postflop Train Accuracy for step-001100: 0.612
+Preflop Test Accuracy for step-001100: 0.783
+Postflop Test Accuracy for step-001100: 0.667
+
+Preflop Train Accuracy for step-001150: 0.884
+Postflop Train Accuracy for step-001150: 0.625
+Preflop Test Accuracy for step-001150: 0.763
+Postflop Test Accuracy for step-001150: 0.689
+
+Preflop Train Accuracy for step-001200: 0.893
+Postflop Train Accuracy for step-001200: 0.615
+Preflop Test Accuracy for step-001200: 0.831
+Postflop Test Accuracy for step-001200: 0.684
+
+Preflop Train Accuracy for step-001250: 0.893
+Postflop Train Accuracy for step-001250: 0.637
+Preflop Test Accuracy for step-001250: 0.808
+Postflop Test Accuracy for step-001250: 0.675
+
+Preflop Train Accuracy for step-001300: 0.918
+Postflop Train Accuracy for step-001300: 0.629
+Preflop Test Accuracy for step-001300: 0.828
+Postflop Test Accuracy for step-001300: 0.688
+
+Preflop Train Accuracy for step-001350: 0.913
+Postflop Train Accuracy for step-001350: 0.613
+Preflop Test Accuracy for step-001350: 0.831
+Postflop Test Accuracy for step-001350: 0.695
+
+Preflop Train Accuracy for step-001400: 0.896
+Postflop Train Accuracy for step-001400: 0.624
+Preflop Test Accuracy for step-001400: 0.846
+Postflop Test Accuracy for step-001400: 0.685
+
+Preflop Train Accuracy for step-001450: 0.9
+Postflop Train Accuracy for step-001450: 0.637
+Preflop Test Accuracy for step-001450: 0.817
+Postflop Test Accuracy for step-001450: 0.69
+
+Preflop Train Accuracy for step-001500: 0.911
+Postflop Train Accuracy for step-001500: 0.636
+Preflop Test Accuracy for step-001500: 0.853
+Postflop Test Accuracy for step-001500: 0.677
+
+Preflop Train Accuracy for step-001550: 0.909
+Postflop Train Accuracy for step-001550: 0.633
+Preflop Test Accuracy for step-001550: 0.853
+Postflop Test Accuracy for step-001550: 0.661
+
+Preflop Train Accuracy for step-001600: 0.902
+Postflop Train Accuracy for step-001600: 0.645
+Preflop Test Accuracy for step-001600: 0.79
+Postflop Test Accuracy for step-001600: 0.686
+
+Preflop Train Accuracy for step-001650: 0.895
+Postflop Train Accuracy for step-001650: 0.638
+Preflop Test Accuracy for step-001650: 0.82
+Postflop Test Accuracy for step-001650: 0.67
+
+Preflop Train Accuracy for step-001700: 0.917
+Postflop Train Accuracy for step-001700: 0.646
+Preflop Test Accuracy for step-001700: 0.819
+Postflop Test Accuracy for step-001700: 0.659
+
+Preflop Train Accuracy for step-001750: 0.898
+Postflop Train Accuracy for step-001750: 0.643
+Preflop Test Accuracy for step-001750: 0.818
+Postflop Test Accuracy for step-001750: 0.664
+
+Preflop Train Accuracy for step-001800: 0.918
+Postflop Train Accuracy for step-001800: 0.645
+Preflop Test Accuracy for step-001800: 0.857
+Postflop Test Accuracy for step-001800: 0.677
+
+Preflop Train Accuracy for step-001850: 0.912
+Postflop Train Accuracy for step-001850: 0.64
+Preflop Test Accuracy for step-001850: 0.851
+Postflop Test Accuracy for step-001850: 0.673
+
+Preflop Train Accuracy for step-001900: 0.918
+Postflop Train Accuracy for step-001900: 0.653
+Preflop Test Accuracy for step-001900: 0.833
+Postflop Test Accuracy for step-001900: 0.695
+
+Preflop Train Accuracy for step-001950: 0.918
+Postflop Train Accuracy for step-001950: 0.641
+Preflop Test Accuracy for step-001950: 0.841
+Postflop Test Accuracy for step-001950: 0.679
+
+Preflop Train Accuracy for step-002000: 0.908
+Postflop Train Accuracy for step-002000: 0.639
+Preflop Test Accuracy for step-002000: 0.815
+Postflop Test Accuracy for step-002000: 0.682
+
+Preflop Train Accuracy for step-002050: 0.924
+Postflop Train Accuracy for step-002050: 0.647
+Preflop Test Accuracy for step-002050: 0.85
+Postflop Test Accuracy for step-002050: 0.67
+
+Preflop Train Accuracy for step-002100: 0.923
+Postflop Train Accuracy for step-002100: 0.633
+Preflop Test Accuracy for step-002100: 0.849
+Postflop Test Accuracy for step-002100: 0.679
+
+Preflop Train Accuracy for step-002150: 0.923
+Postflop Train Accuracy for step-002150: 0.641
+Preflop Test Accuracy for step-002150: 0.867
+Postflop Test Accuracy for step-002150: 0.704
+
+Preflop Train Accuracy for step-002200: 0.913
+Postflop Train Accuracy for step-002200: 0.639
+Preflop Test Accuracy for step-002200: 0.859
+Postflop Test Accuracy for step-002200: 0.684
+
+Preflop Train Accuracy for step-002250: 0.929
+Postflop Train Accuracy for step-002250: 0.639
+Preflop Test Accuracy for step-002250: 0.868
+Postflop Test Accuracy for step-002250: 0.683
+
+Preflop Train Accuracy for step-002300: 0.925
+Postflop Train Accuracy for step-002300: 0.618
+Preflop Test Accuracy for step-002300: 0.884
+Postflop Test Accuracy for step-002300: 0.676
+
+Preflop Train Accuracy for step-002350: 0.922
+Postflop Train Accuracy for step-002350: 0.624
+Preflop Test Accuracy for step-002350: 0.875
+Postflop Test Accuracy for step-002350: 0.676
+
+Preflop Train Accuracy for step-002400: 0.925
+Postflop Train Accuracy for step-002400: 0.628
+Preflop Test Accuracy for step-002400: 0.843
+Postflop Test Accuracy for step-002400: 0.656
+
+Preflop Train Accuracy for step-002450: 0.927
+Postflop Train Accuracy for step-002450: 0.635
+Preflop Test Accuracy for step-002450: 0.855
+Postflop Test Accuracy for step-002450: 0.676
+
+Preflop Train Accuracy for step-002500: 0.936
+Postflop Train Accuracy for step-002500: 0.644
+Preflop Test Accuracy for step-002500: 0.869
+Postflop Test Accuracy for step-002500: 0.678
+
+Preflop Train Accuracy for step-002550: 0.923
+Postflop Train Accuracy for step-002550: 0.643
+Preflop Test Accuracy for step-002550: 0.863
+Postflop Test Accuracy for step-002550: 0.679
+
+Preflop Train Accuracy for step-002600: 0.942
+Postflop Train Accuracy for step-002600: 0.625
+Preflop Test Accuracy for step-002600: 0.873
+Postflop Test Accuracy for step-002600: 0.683
+
+Preflop Train Accuracy for step-002650: 0.928
+Postflop Train Accuracy for step-002650: 0.639
+Preflop Test Accuracy for step-002650: 0.855
+Postflop Test Accuracy for step-002650: 0.685
+
+Preflop Train Accuracy for step-002700: 0.929
+Postflop Train Accuracy for step-002700: 0.64
+Preflop Test Accuracy for step-002700: 0.878
+Postflop Test Accuracy for step-002700: 0.675
+
+Preflop Train Accuracy for step-002750: 0.926
+Postflop Train Accuracy for step-002750: 0.632
+Preflop Test Accuracy for step-002750: 0.868
+Postflop Test Accuracy for step-002750: 0.689
+
+Preflop Train Accuracy for step-002800: 0.931
+Postflop Train Accuracy for step-002800: 0.627
+Preflop Test Accuracy for step-002800: 0.88
+Postflop Test Accuracy for step-002800: 0.689
+
+Preflop Train Accuracy for step-002850: 0.937
+Postflop Train Accuracy for step-002850: 0.632
+Preflop Test Accuracy for step-002850: 0.859
+Postflop Test Accuracy for step-002850: 0.668
+
+Preflop Train Accuracy for step-002900: 0.934
+Postflop Train Accuracy for step-002900: 0.633
+Preflop Test Accuracy for step-002900: 0.856
+Postflop Test Accuracy for step-002900: 0.674
+
+Preflop Train Accuracy for step-002950: 0.933
+Postflop Train Accuracy for step-002950: 0.631
+Preflop Test Accuracy for step-002950: 0.832
+Postflop Test Accuracy for step-002950: 0.684
+
+Preflop Train Accuracy for step-003000: 0.931
+Postflop Train Accuracy for step-003000: 0.633
+Preflop Test Accuracy for step-003000: 0.869
+Postflop Test Accuracy for step-003000: 0.662
+
+Preflop Train Accuracy for step-003050: 0.915
+Postflop Train Accuracy for step-003050: 0.633
+Preflop Test Accuracy for step-003050: 0.87
+Postflop Test Accuracy for step-003050: 0.687
+

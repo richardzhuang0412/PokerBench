@@ -1,0 +1,737 @@
+Initializing distributed: GLOBAL_RANK: 0, MEMBER: 1/4
+Initializing distributed: GLOBAL_RANK: 3, MEMBER: 4/4
+[W CUDAAllocatorConfig.h:28] Warning: expandable_segments not supported on this platform (function operator())
+Initializing distributed: GLOBAL_RANK: 1, MEMBER: 2/4
+[W CUDAAllocatorConfig.h:28] Warning: expandable_segments not supported on this platform (function operator())
+Initializing distributed: GLOBAL_RANK: 2, MEMBER: 3/4
+[W CUDAAllocatorConfig.h:28] Warning: expandable_segments not supported on this platform (function operator())
+[W CUDAAllocatorConfig.h:28] Warning: expandable_segments not supported on this platform (function operator())
+----------------------------------------------------------------------------------------------------
+distributed_backend=nccl
+All distributed processes registered. Starting with 4 processes
+----------------------------------------------------------------------------------------------------
+
+[rank: 0] Seed set to 1337
+[rank: 1] Seed set to 1337
+[rank: 3] Seed set to 1337
+[rank: 2] Seed set to 1337
+{'checkpoint_dir': PosixPath('checkpoints/meta-llama/Meta-Llama-3-8B'),
+ 'data': JSON(json_path=PosixPath('SFT/sft_combined_large.json'),
+              mask_prompt=False,
+              val_split_fraction=0.01,
+              prompt_style=<litgpt.prompts.Alpaca object at 0x7f4cd1507810>,
+              ignore_index=-100,
+              seed=42,
+              num_workers=4),
+ 'devices': 4,
+ 'eval': EvalArgs(interval=200,
+                  max_new_tokens=100,
+                  max_iters=100,
+                  initial_validation=False),
+ 'logger_name': 'csv',
+ 'out_dir': PosixPath('out/llama-3-8b-110k'),
+ 'precision': None,
+ 'resume': False,
+ 'seed': 1337,
+ 'train': TrainArgs(save_interval=200,
+                    log_interval=50,
+                    global_batch_size=128,
+                    micro_batch_size=16,
+                    lr_warmup_steps=100,
+                    lr_warmup_fraction=None,
+                    epochs=8,
+                    max_tokens=None,
+                    max_steps=None,
+                    max_seq_length=None,
+                    tie_embeddings=None,
+                    learning_rate=1e-06,
+                    weight_decay=0.02,
+                    beta1=0.9,
+                    beta2=0.95,
+                    max_norm=None,
+                    min_lr=6e-05)}
+Number of trainable parameters: 8,030,261,248
+The longest sequence length in the train data is 321, the model's maximum sequence length is 321 and context length is 8192
+Validating ...
+{'checkpoint_dir': PosixPath('checkpoints/meta-llama/Meta-Llama-3-8B'),
+ 'data': JSON(json_path=PosixPath('SFT/sft_combined_large.json'),
+              mask_prompt=False,
+              val_split_fraction=0.01,
+              prompt_style=<litgpt.prompts.Alpaca object at 0x7fc32523e5d0>,
+              ignore_index=-100,
+              seed=42,
+              num_workers=4),
+ 'devices': 4,
+ 'eval': EvalArgs(interval=200,
+                  max_new_tokens=100,
+                  max_iters=100,
+                  initial_validation=False),
+ 'logger_name': 'csv',
+ 'out_dir': PosixPath('out/llama-3-8b-110k'),
+ 'precision': None,
+ 'resume': False,
+ 'seed': 1337,
+ 'train': TrainArgs(save_interval=200,
+                    log_interval=50,
+                    global_batch_size=128,
+                    micro_batch_size=16,
+                    lr_warmup_steps=100,
+                    lr_warmup_fraction=None,
+                    epochs=8,
+                    max_tokens=None,
+                    max_steps=None,
+                    max_seq_length=None,
+                    tie_embeddings=None,
+                    learning_rate=1e-06,
+                    weight_decay=0.02,
+                    beta1=0.9,
+                    beta2=0.95,
+                    max_norm=None,
+                    min_lr=6e-05)}
+{'checkpoint_dir': PosixPath('checkpoints/meta-llama/Meta-Llama-3-8B'),
+ 'data': JSON(json_path=PosixPath('SFT/sft_combined_large.json'),
+              mask_prompt=False,
+              val_split_fraction=0.01,
+              prompt_style=<litgpt.prompts.Alpaca object at 0x7f5775a8b210>,
+              ignore_index=-100,
+              seed=42,
+              num_workers=4),
+ 'devices': 4,
+ 'eval': EvalArgs(interval=200,
+                  max_new_tokens=100,
+                  max_iters=100,
+                  initial_validation=False),
+ 'logger_name': 'csv',
+ 'out_dir': PosixPath('out/llama-3-8b-110k'),
+ 'precision': None,
+ 'resume': False,
+ 'seed': 1337,
+ 'train': TrainArgs(save_interval=200,
+                    log_interval=50,
+                    global_batch_size=128,
+                    micro_batch_size=16,
+                    lr_warmup_steps=100,
+                    lr_warmup_fraction=None,
+                    epochs=8,
+                    max_tokens=None,
+                    max_steps=None,
+                    max_seq_length=None,
+                    tie_embeddings=None,
+                    learning_rate=1e-06,
+                    weight_decay=0.02,
+                    beta1=0.9,
+                    beta2=0.95,
+                    max_norm=None,
+                    min_lr=6e-05)}
+{'checkpoint_dir': PosixPath('checkpoints/meta-llama/Meta-Llama-3-8B'),
+ 'data': JSON(json_path=PosixPath('SFT/sft_combined_large.json'),
+              mask_prompt=False,
+              val_split_fraction=0.01,
+              prompt_style=<litgpt.prompts.Alpaca object at 0x7f4a2c947190>,
+              ignore_index=-100,
+              seed=42,
+              num_workers=4),
+ 'devices': 4,
+ 'eval': EvalArgs(interval=200,
+                  max_new_tokens=100,
+                  max_iters=100,
+                  initial_validation=False),
+ 'logger_name': 'csv',
+ 'out_dir': PosixPath('out/llama-3-8b-110k'),
+ 'precision': None,
+ 'resume': False,
+ 'seed': 1337,
+ 'train': TrainArgs(save_interval=200,
+                    log_interval=50,
+                    global_batch_size=128,
+                    micro_batch_size=16,
+                    lr_warmup_steps=100,
+                    lr_warmup_fraction=None,
+                    epochs=8,
+                    max_tokens=None,
+                    max_steps=None,
+                    max_seq_length=None,
+                    tie_embeddings=None,
+                    learning_rate=1e-06,
+                    weight_decay=0.02,
+                    beta1=0.9,
+                    beta2=0.95,
+                    max_norm=None,
+                    min_lr=6e-05)}
+/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/torch/optim/lr_scheduler.py:156: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/torch/optim/lr_scheduler.py:156: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/torch/optim/lr_scheduler.py:156: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+/data/richard/miniconda3/envs/litgpt/lib/python3.11/site-packages/torch/optim/lr_scheduler.py:156: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+Epoch 1 | iter 50 step 25 | loss train: 2.017, val: n/a | iter time: 13353.36 ms (step)
+Epoch 1 | iter 100 step 50 | loss train: 0.494, val: n/a | iter time: 13696.49 ms (step)
+Epoch 1 | iter 150 step 75 | loss train: 0.172, val: n/a | iter time: 13639.80 ms (step)
+Epoch 1 | iter 200 step 100 | loss train: 0.141, val: n/a | iter time: 13608.75 ms (step)
+Epoch 1 | iter 250 step 125 | loss train: 0.117, val: n/a | iter time: 13660.98 ms (step)
+Epoch 1 | iter 300 step 150 | loss train: 0.096, val: n/a | iter time: 13688.21 ms (step)
+Epoch 1 | iter 350 step 175 | loss train: 0.083, val: n/a | iter time: 13827.47 ms (step)
+Epoch 1 | iter 400 step 200 | loss train: 0.075, val: n/a | iter time: 13624.55 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+The movie "The Shawshank Redemption" is a great choice for a weekend watch. It is a powerful and moving film that tells the story of Andy Dufresne, a man who is wrongfully convicted of murder and sent to prison. The film follows his journey through the prison system, where he befriends another inmate, Red, and works to escape.
+
+The reason I recommend this film is because it is a classic that has stood the test of time. It is a well-crafted
+iter 400: val loss 0.0766, val time: 539897.25 ms
+Saving checkpoint to 'out/llama-3-8b-110k/step-000200'
+Epoch 1 | iter 450 step 225 | loss train: 0.071, val: 0.077 | iter time: 13593.65 ms (step)
+Epoch 1 | iter 500 step 250 | loss train: 0.069, val: 0.077 | iter time: 13665.08 ms (step)
+Epoch 1 | iter 550 step 275 | loss train: 0.067, val: 0.077 | iter time: 13589.61 ms (step)
+Epoch 1 | iter 600 step 300 | loss train: 0.066, val: 0.077 | iter time: 13706.83 ms (step)
+Epoch 1 | iter 650 step 325 | loss train: 0.067, val: 0.077 | iter time: 13556.33 ms (step)
+Epoch 1 | iter 700 step 350 | loss train: 0.068, val: 0.077 | iter time: 13415.96 ms (step)
+Epoch 1 | iter 750 step 375 | loss train: 0.066, val: 0.077 | iter time: 13919.44 ms (step)
+Epoch 1 | iter 800 step 400 | loss train: 0.066, val: 0.077 | iter time: 13640.96 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+I recommend "The Martian" because it is a thrilling and inspiring story about human resilience and determination in the face of adversity. The main character, Mark Watney, is stranded on Mars after his team believes he has died, but he must find a way to survive and find a way home. It is a celebration of the human spirit and a reminder that we are capable of achieving great things, even in the most challenging of circumstances.
+iter 800: val loss 0.0660, val time: 481828.34 ms
+Saving checkpoint to 'out/llama-3-8b-110k/step-000400'
+Epoch 1 | iter 850 step 425 | loss train: 0.064, val: 0.066 | iter time: 13666.84 ms (step)
+Epoch 1 | iter 900 step 450 | loss train: 0.066, val: 0.066 | iter time: 13606.40 ms (step)
+Epoch 1 | iter 950 step 475 | loss train: 0.065, val: 0.066 | iter time: 13747.45 ms (step)
+Epoch 1 | iter 1000 step 500 | loss train: 0.064, val: 0.066 | iter time: 13664.21 ms (step)
+Epoch 1 | iter 1050 step 525 | loss train: 0.063, val: 0.066 | iter time: 13696.78 ms (step)
+Epoch 1 | iter 1100 step 550 | loss train: 0.064, val: 0.066 | iter time: 13751.98 ms (step)
+Epoch 1 | iter 1150 step 575 | loss train: 0.065, val: 0.066 | iter time: 13666.92 ms (step)
+Epoch 1 | iter 1200 step 600 | loss train: 0.063, val: 0.066 | iter time: 13695.85 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+There is a new horror movie that is getting a lot of buzz called "The Conjuring". The movie is about two paranormal investigators who are called in to help a family who is being terrorized by a ghost. The movie is based on a true story and has received positive reviews from critics. I think you would enjoy this movie because it is a great horror movie that will keep you on the edge of your seat.
+iter 1200: val loss 0.0638, val time: 471196.84 ms
+Saving checkpoint to 'out/llama-3-8b-110k/step-000600'
+Epoch 1 | iter 1250 step 625 | loss train: 0.063, val: 0.064 | iter time: 14311.63 ms (step)
+Epoch 1 | iter 1300 step 650 | loss train: 0.063, val: 0.064 | iter time: 13642.20 ms (step)
+Epoch 1 | iter 1350 step 675 | loss train: 0.065, val: 0.064 | iter time: 13665.16 ms (step)
+Epoch 1 | iter 1400 step 700 | loss train: 0.064, val: 0.064 | iter time: 13738.76 ms (step)
+Epoch 1 | iter 1450 step 725 | loss train: 0.064, val: 0.064 | iter time: 13637.27 ms (step)
+Epoch 1 | iter 1500 step 750 | loss train: 0.062, val: 0.064 | iter time: 13618.91 ms (step)
+Epoch 1 | iter 1550 step 775 | loss train: 0.065, val: 0.064 | iter time: 13671.38 ms (step)
+Epoch 1 | iter 1600 step 800 | loss train: 0.063, val: 0.064 | iter time: 13573.36 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+How about watching "The Grand Budapest Hotel"? It is a comedy movie that follows the story of a legendary concierge, Gustave H., and his loyal lobby boy, Zero. The movie is set in a fictional European country and is filled with humor, wit, and charm. It is a visually stunning film that will leave you feeling uplifted and entertained.
+iter 1600: val loss 0.0631, val time: 416225.22 ms
+Saving checkpoint to 'out/llama-3-8b-110k/step-000800'
+Epoch 1 | iter 1650 step 825 | loss train: 0.061, val: 0.063 | iter time: 13481.73 ms (step)
+Epoch 1 | iter 1700 step 850 | loss train: 0.062, val: 0.063 | iter time: 13783.68 ms (step)
+Epoch 2 | iter 1750 step 875 | loss train: 0.064, val: 0.063 | iter time: 13578.24 ms (step)
+Epoch 2 | iter 1800 step 900 | loss train: 0.062, val: 0.063 | iter time: 13600.68 ms (step)
+Epoch 2 | iter 1850 step 925 | loss train: 0.061, val: 0.063 | iter time: 13578.09 ms (step)
+Epoch 2 | iter 1900 step 950 | loss train: 0.062, val: 0.063 | iter time: 13375.07 ms (step)
+Epoch 2 | iter 1950 step 975 | loss train: 0.064, val: 0.063 | iter time: 13933.45 ms (step)
+Epoch 2 | iter 2000 step 1000 | loss train: 0.064, val: 0.063 | iter time: 13982.41 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+You should watch the movie "The Shawshank Redemption" because it is a classic film that is regarded as one of the greatest movies of all time. The movie tells the story of a man who is wrongfully convicted of a crime and sent to prison, where he forms a strong friendship with another inmate and eventually escapes. The film is known for its powerful performances, stunning visuals, and an unforgettable story that will stay with you long after the credits roll.
+iter 2000: val loss 0.0622, val time: 501090.24 ms
+Saving checkpoint to 'out/llama-3-8b-110k/step-001000'
+Epoch 2 | iter 2050 step 1025 | loss train: 0.062, val: 0.062 | iter time: 13659.83 ms (step)
+Epoch 2 | iter 2100 step 1050 | loss train: 0.062, val: 0.062 | iter time: 13952.21 ms (step)
+Epoch 2 | iter 2150 step 1075 | loss train: 0.062, val: 0.062 | iter time: 13610.78 ms (step)
+Epoch 2 | iter 2200 step 1100 | loss train: 0.062, val: 0.062 | iter time: 14175.82 ms (step)
+Epoch 2 | iter 2250 step 1125 | loss train: 0.063, val: 0.062 | iter time: 13643.53 ms (step)
+Epoch 2 | iter 2300 step 1150 | loss train: 0.062, val: 0.062 | iter time: 13598.70 ms (step)
+Epoch 2 | iter 2350 step 1175 | loss train: 0.061, val: 0.062 | iter time: 14341.90 ms (step)
+Epoch 2 | iter 2400 step 1200 | loss train: 0.067, val: 0.062 | iter time: 13801.52 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+I recommend the movie "The Shawshank Redemption" because it is a classic drama with a powerful message about the resilience of the human spirit. The movie tells the story of Andy Dufresne, a young man who is convicted of murdering his wife and her lover, and is sent to Shawshank Prison. While in prison, Andy befriends another inmate, Red, and the two form a close bond. Over the course of the movie, Andy learns to survive in the harsh environment of
+iter 2400: val loss 0.0649, val time: 536223.36 ms
+Saving checkpoint to 'out/llama-3-8b-110k/step-001200'
+Epoch 2 | iter 2450 step 1225 | loss train: 0.059, val: 0.065 | iter time: 14021.32 ms (step)
+Epoch 2 | iter 2500 step 1250 | loss train: 0.062, val: 0.065 | iter time: 13597.12 ms (step)
+Epoch 2 | iter 2550 step 1275 | loss train: 0.063, val: 0.065 | iter time: 13694.08 ms (step)
+Epoch 2 | iter 2600 step 1300 | loss train: 0.062, val: 0.065 | iter time: 13572.29 ms (step)
+Epoch 2 | iter 2650 step 1325 | loss train: 0.061, val: 0.065 | iter time: 13653.19 ms (step)
+Epoch 2 | iter 2700 step 1350 | loss train: 0.062, val: 0.065 | iter time: 13660.57 ms (step)
+Epoch 2 | iter 2750 step 1375 | loss train: 0.061, val: 0.065 | iter time: 13688.12 ms (step)
+Epoch 2 | iter 2800 step 1400 | loss train: 0.062, val: 0.065 | iter time: 13807.51 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+I recommend watching the movie "The Shawshank Redemption" because it is a classic movie that is known for its powerful story, strong characters, and masterful direction. The movie tells the story of Andy Dufresne, a man who is wrongfully convicted of murder and sentenced to life in Shawshank State Prison. Despite the harsh conditions, Andy manages to maintain his dignity and hope, and he befriends a fellow inmate, Red, who helps him survive and eventually escape. The movie
+iter 2800: val loss 0.0619, val time: 533939.41 ms
+Saving checkpoint to 'out/llama-3-8b-110k/step-001400'
+Epoch 2 | iter 2850 step 1425 | loss train: 0.063, val: 0.062 | iter time: 13617.79 ms (step)
+Epoch 2 | iter 2900 step 1450 | loss train: 0.063, val: 0.062 | iter time: 13577.72 ms (step)
+Epoch 2 | iter 2950 step 1475 | loss train: 0.062, val: 0.062 | iter time: 13453.33 ms (step)
+Epoch 2 | iter 3000 step 1500 | loss train: 0.062, val: 0.062 | iter time: 13405.53 ms (step)
+Epoch 2 | iter 3050 step 1525 | loss train: 0.061, val: 0.062 | iter time: 13413.45 ms (step)
+Epoch 2 | iter 3100 step 1550 | loss train: 0.061, val: 0.062 | iter time: 13655.79 ms (step)
+Epoch 2 | iter 3150 step 1575 | loss train: 0.061, val: 0.062 | iter time: 14244.84 ms (step)
+Epoch 2 | iter 3200 step 1600 | loss train: 0.064, val: 0.062 | iter time: 14002.55 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+I recommend watching "The Matrix" because it is a classic science fiction film that explores themes of identity, reality, and free will. The film has a fast-paced action, and the concept of the Matrix is still relevant today, making it a fun and thought-provoking movie to watch.
+iter 3200: val loss 0.0616, val time: 356385.43 ms
+Saving checkpoint to 'out/llama-3-8b-110k/step-001600'
+Epoch 2 | iter 3250 step 1625 | loss train: 0.062, val: 0.062 | iter time: 13657.89 ms (step)
+Epoch 2 | iter 3300 step 1650 | loss train: 0.062, val: 0.062 | iter time: 13578.52 ms (step)
+Epoch 2 | iter 3350 step 1675 | loss train: 0.061, val: 0.062 | iter time: 14264.93 ms (step)
+Epoch 2 | iter 3400 step 1700 | loss train: 0.062, val: 0.062 | iter time: 13647.87 ms (step)
+Epoch 3 | iter 3450 step 1725 | loss train: 0.061, val: 0.062 | iter time: 13360.64 ms (step)
+Epoch 3 | iter 3500 step 1750 | loss train: 0.061, val: 0.062 | iter time: 13569.19 ms (step)
+Epoch 3 | iter 3550 step 1775 | loss train: 0.062, val: 0.062 | iter time: 13455.42 ms (step)
+Epoch 3 | iter 3600 step 1800 | loss train: 0.060, val: 0.062 | iter time: 13692.89 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+The movie "Parasite" is a great choice for a weekend movie. It is a thrilling and thought-provoking film that will keep you on the edge of your seat. The film is about a poor family that schemes to infiltrate a wealthy household, and the twisted consequences that follow. The acting is superb, and the story is both suspenseful and poignant. Overall, "Parasite" is a must-see movie that will leave you thinking long after the credits roll.
+iter 3600: val loss 0.0615, val time: 535539.37 ms
+Saving checkpoint to 'out/llama-3-8b-110k/step-001800'
+Epoch 3 | iter 3650 step 1825 | loss train: 0.061, val: 0.062 | iter time: 13669.87 ms (step)
+Epoch 3 | iter 3700 step 1850 | loss train: 0.062, val: 0.062 | iter time: 13595.19 ms (step)
+Epoch 3 | iter 3750 step 1875 | loss train: 0.061, val: 0.062 | iter time: 13645.71 ms (step)
+Epoch 3 | iter 3800 step 1900 | loss train: 0.061, val: 0.062 | iter time: 13784.36 ms (step)
+Epoch 3 | iter 3850 step 1925 | loss train: 0.062, val: 0.062 | iter time: 13985.16 ms (step)
+Epoch 3 | iter 3900 step 1950 | loss train: 0.062, val: 0.062 | iter time: 13690.72 ms (step)
+Epoch 3 | iter 3950 step 1975 | loss train: 0.061, val: 0.062 | iter time: 13656.72 ms (step)
+Epoch 3 | iter 4000 step 2000 | loss train: 0.061, val: 0.062 | iter time: 13639.66 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+The movie I recommend is "The Matrix". This movie is an action and sci-fi film that will keep you on the edge of your seat. The story follows a group of people who are trapped in a simulated reality, and must find a way to escape. The cast is led by Keanu Reeves, Carrie-Anne Moss, and Laurence Fishburne, and the movie also features Hugo Weaving, Joe Pantoliano, and Gloria Foster. The director of the film is the W
+iter 4000: val loss 0.0609, val time: 535769.34 ms
+Saving checkpoint to 'out/llama-3-8b-110k/step-002000'
+Epoch 3 | iter 4050 step 2025 | loss train: 0.061, val: 0.061 | iter time: 13807.77 ms (step)
+Epoch 3 | iter 4100 step 2050 | loss train: 0.063, val: 0.061 | iter time: 13687.04 ms (step)
+Epoch 3 | iter 4150 step 2075 | loss train: 0.061, val: 0.061 | iter time: 13963.40 ms (step)
+Epoch 3 | iter 4200 step 2100 | loss train: 0.061, val: 0.061 | iter time: 13566.01 ms (step)
+Epoch 3 | iter 4250 step 2125 | loss train: 0.061, val: 0.061 | iter time: 13602.82 ms (step)
+Epoch 3 | iter 4300 step 2150 | loss train: 0.060, val: 0.061 | iter time: 13680.70 ms (step)
+Epoch 3 | iter 4350 step 2175 | loss train: 0.060, val: 0.061 | iter time: 13609.58 ms (step)
+Epoch 3 | iter 4400 step 2200 | loss train: 0.062, val: 0.061 | iter time: 13680.34 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+You might like [The Hunger Games: Mockingjay - Part 2](http://www.imdb.com/title/tt2842592/). It is the second part of [The Hunger Games](http://www.imdb.com/title/tt1392170/) series and is about two teenagers who are forced to participate in a deadly game. The movie is action-packed and will keep you on the edge of your seat. Additionally, the movie has a strong message about the importance of standing up
+iter 4400: val loss 0.0614, val time: 538587.30 ms
+Saving checkpoint to 'out/llama-3-8b-110k/step-002200'
+Epoch 3 | iter 4450 step 2225 | loss train: 0.061, val: 0.061 | iter time: 13590.03 ms (step)
+Epoch 3 | iter 4500 step 2250 | loss train: 0.060, val: 0.061 | iter time: 13571.70 ms (step)
+Epoch 3 | iter 4550 step 2275 | loss train: 0.062, val: 0.061 | iter time: 13610.78 ms (step)
+Epoch 3 | iter 4600 step 2300 | loss train: 0.061, val: 0.061 | iter time: 13488.71 ms (step)
+Epoch 3 | iter 4650 step 2325 | loss train: 0.061, val: 0.061 | iter time: 13623.64 ms (step)
+Epoch 3 | iter 4700 step 2350 | loss train: 0.062, val: 0.061 | iter time: 13369.82 ms (step)
+Epoch 3 | iter 4750 step 2375 | loss train: 0.061, val: 0.061 | iter time: 14065.87 ms (step)
+Epoch 3 | iter 4800 step 2400 | loss train: 0.063, val: 0.061 | iter time: 13705.54 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+I recommend watching "Seven" because it is a thrilling and suspenseful movie that will keep you on the edge of your seat. The film follows a group of detectives as they attempt to solve a series of gruesome murders. With its twisting plot and dark themes, "Seven" is a must-watch for anyone who enjoys a good mystery.
+iter 4800: val loss 0.0611, val time: 392973.37 ms
+Saving checkpoint to 'out/llama-3-8b-110k/step-002400'
+Epoch 3 | iter 4850 step 2425 | loss train: 0.062, val: 0.061 | iter time: 13521.88 ms (step)
+Epoch 3 | iter 4900 step 2450 | loss train: 0.062, val: 0.061 | iter time: 14118.26 ms (step)
+Epoch 3 | iter 4950 step 2475 | loss train: 0.063, val: 0.061 | iter time: 13657.06 ms (step)
+Epoch 3 | iter 5000 step 2500 | loss train: 0.061, val: 0.061 | iter time: 13606.65 ms (step)
+Epoch 3 | iter 5050 step 2525 | loss train: 0.062, val: 0.061 | iter time: 13674.23 ms (step)
+Epoch 3 | iter 5100 step 2550 | loss train: 0.060, val: 0.061 | iter time: 13621.71 ms (step)
+Epoch 4 | iter 5150 step 2575 | loss train: 0.062, val: 0.061 | iter time: 13677.65 ms (step)
+Epoch 4 | iter 5200 step 2600 | loss train: 0.061, val: 0.061 | iter time: 14022.64 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+You should watch "Avengers: Endgame" because it is the final installment of the Avengers franchise and it has received positive reviews. The movie is a culmination of all the previous Avengers movies and it features all your favorite superheroes. It is a must-watch for any Marvel fan and will leave you with a satisfying conclusion to the story.
+iter 5200: val loss 0.0611, val time: 394303.16 ms
+Saving checkpoint to 'out/llama-3-8b-110k/step-002600'
+Epoch 4 | iter 5250 step 2625 | loss train: 0.061, val: 0.061 | iter time: 13713.13 ms (step)
+Epoch 4 | iter 5300 step 2650 | loss train: 0.061, val: 0.061 | iter time: 13565.45 ms (step)
+Epoch 4 | iter 5350 step 2675 | loss train: 0.061, val: 0.061 | iter time: 13905.23 ms (step)
+Epoch 4 | iter 5400 step 2700 | loss train: 0.061, val: 0.061 | iter time: 13332.51 ms (step)
+Epoch 4 | iter 5450 step 2725 | loss train: 0.061, val: 0.061 | iter time: 13566.94 ms (step)
+Epoch 4 | iter 5500 step 2750 | loss train: 0.062, val: 0.061 | iter time: 13587.56 ms (step)
+Epoch 4 | iter 5550 step 2775 | loss train: 0.060, val: 0.061 | iter time: 13860.33 ms (step)
+Epoch 4 | iter 5600 step 2800 | loss train: 0.062, val: 0.061 | iter time: 13787.82 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+The movie "Contagion" is a great choice. It is a thrilling and thought-provoking film that explores the topic of a global pandemic. The film follows the story of a deadly virus that spreads rapidly, and the efforts of health officials and scientists to contain it. The movie features a stellar cast, including Matt Damon, Kate Winslet, and Jude Law, and is directed by Steven Soderbergh. It is a well-crafted and engaging film that is sure to keep you
+iter 5600: val loss 0.0611, val time: 538530.14 ms
+Saving checkpoint to 'out/llama-3-8b-110k/step-002800'
+Epoch 4 | iter 5650 step 2825 | loss train: 0.061, val: 0.061 | iter time: 13558.44 ms (step)
+Epoch 4 | iter 5700 step 2850 | loss train: 0.059, val: 0.061 | iter time: 13673.87 ms (step)
+Epoch 4 | iter 5750 step 2875 | loss train: 0.061, val: 0.061 | iter time: 13662.03 ms (step)
+Epoch 4 | iter 5800 step 2900 | loss train: 0.059, val: 0.061 | iter time: 13378.81 ms (step)
+Epoch 4 | iter 5850 step 2925 | loss train: 0.061, val: 0.061 | iter time: 13503.35 ms (step)
+Epoch 4 | iter 5900 step 2950 | loss train: 0.060, val: 0.061 | iter time: 13686.68 ms (step)
+Epoch 4 | iter 5950 step 2975 | loss train: 0.061, val: 0.061 | iter time: 13513.42 ms (step)
+Epoch 4 | iter 6000 step 3000 | loss train: 0.061, val: 0.061 | iter time: 13587.73 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+I recommend watching the movie "The Shawshank Redemption" because it is a classic film that tells the story of two men who form a close friendship while serving time in a prison. The movie is known for its powerful performances and emotional storyline, and it is a great choice for a weekend movie.
+iter 6000: val loss 0.0609, val time: 358383.31 ms
+Saving checkpoint to 'out/llama-3-8b-110k/step-003000'
+Epoch 4 | iter 6050 step 3025 | loss train: 0.062, val: 0.061 | iter time: 13400.29 ms (step)
+Epoch 4 | iter 6100 step 3050 | loss train: 0.059, val: 0.061 | iter time: 13982.36 ms (step)
+Epoch 4 | iter 6150 step 3075 | loss train: 0.061, val: 0.061 | iter time: 13761.52 ms (step)
+Epoch 4 | iter 6200 step 3100 | loss train: 0.060, val: 0.061 | iter time: 13582.06 ms (step)
+Epoch 4 | iter 6250 step 3125 | loss train: 0.062, val: 0.061 | iter time: 13632.98 ms (step)
+Epoch 4 | iter 6300 step 3150 | loss train: 0.061, val: 0.061 | iter time: 13950.32 ms (step)
+Epoch 4 | iter 6350 step 3175 | loss train: 0.060, val: 0.061 | iter time: 13598.58 ms (step)
+Epoch 4 | iter 6400 step 3200 | loss train: 0.061, val: 0.061 | iter time: 13660.23 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+I recommend the movie "The King of Pigs" because it is a great story about friendship and overcoming obstacles. The movie is about a group of friends who go on a journey to find a missing person. The movie is very tense and suspenseful, and I think it will keep you on the edge of your seat.
+iter 6400: val loss 0.0609, val time: 385155.74 ms
+Saving checkpoint to 'out/llama-3-8b-110k/step-003200'
+Epoch 4 | iter 6450 step 3225 | loss train: 0.060, val: 0.061 | iter time: 13579.42 ms (step)
+Epoch 4 | iter 6500 step 3250 | loss train: 0.060, val: 0.061 | iter time: 13931.43 ms (step)
+Epoch 4 | iter 6550 step 3275 | loss train: 0.062, val: 0.061 | iter time: 13711.08 ms (step)
+Epoch 4 | iter 6600 step 3300 | loss train: 0.061, val: 0.061 | iter time: 13374.53 ms (step)
+Epoch 4 | iter 6650 step 3325 | loss train: 0.061, val: 0.061 | iter time: 13659.62 ms (step)
+Epoch 4 | iter 6700 step 3350 | loss train: 0.060, val: 0.061 | iter time: 13717.94 ms (step)
+Epoch 4 | iter 6750 step 3375 | loss train: 0.060, val: 0.061 | iter time: 13613.30 ms (step)
+Epoch 4 | iter 6800 step 3400 | loss train: 0.060, val: 0.061 | iter time: 13578.00 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+The movie "Blade Runner" is a great choice for a weekend watch. It is a sci-fi classic that will keep you engaged throughout. The movie follows a blade runner, a law enforcement officer tasked with tracking down and eliminating a group of genetically engineered replicants, and explores the themes of identity, morality, and humanity. The film features stunning visuals, a gripping story, and a talented cast, making it a must-watch for fans of the genre.
+iter 6800: val loss 0.0608, val time: 502761.44 ms
+Saving checkpoint to 'out/llama-3-8b-110k/step-003400'
+Epoch 5 | iter 6850 step 3425 | loss train: 0.060, val: 0.061 | iter time: 13662.10 ms (step)
+Epoch 5 | iter 6900 step 3450 | loss train: 0.061, val: 0.061 | iter time: 13958.21 ms (step)
+Epoch 5 | iter 6950 step 3475 | loss train: 0.061, val: 0.061 | iter time: 13492.85 ms (step)
+Epoch 5 | iter 7000 step 3500 | loss train: 0.061, val: 0.061 | iter time: 13622.28 ms (step)
+Epoch 5 | iter 7050 step 3525 | loss train: 0.058, val: 0.061 | iter time: 13655.52 ms (step)
+Epoch 5 | iter 7100 step 3550 | loss train: 0.060, val: 0.061 | iter time: 13620.24 ms (step)
+Epoch 5 | iter 7150 step 3575 | loss train: 0.061, val: 0.061 | iter time: 13679.60 ms (step)
+Epoch 5 | iter 7200 step 3600 | loss train: 0.061, val: 0.061 | iter time: 13703.81 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Here is a movie that I think you might like:
+- Title: "The Shawshank Redemption"
+- Genre: Drama
+- Plot: Two men, one in prison and one in freedom, bond over their shared love of music, literature, and the simple pleasures of life. The movie is a powerful story of hope, friendship, and the human spirit.
+
+I recommend this movie because of its strong emotional content, complex characters, and thought-provoking themes. The movie is a classic that
+iter 7200: val loss 0.0607, val time: 539351.30 ms
+Saving checkpoint to 'out/llama-3-8b-110k/step-003600'
+Epoch 5 | iter 7250 step 3625 | loss train: 0.060, val: 0.061 | iter time: 13749.70 ms (step)
+Epoch 5 | iter 7300 step 3650 | loss train: 0.061, val: 0.061 | iter time: 14161.91 ms (step)
+Epoch 5 | iter 7350 step 3675 | loss train: 0.060, val: 0.061 | iter time: 13634.00 ms (step)
+Epoch 5 | iter 7400 step 3700 | loss train: 0.061, val: 0.061 | iter time: 13710.46 ms (step)
+Epoch 5 | iter 7450 step 3725 | loss train: 0.061, val: 0.061 | iter time: 13575.22 ms (step)
+Epoch 5 | iter 7500 step 3750 | loss train: 0.059, val: 0.061 | iter time: 13722.70 ms (step)
+Epoch 5 | iter 7550 step 3775 | loss train: 0.059, val: 0.061 | iter time: 13616.10 ms (step)
+Epoch 5 | iter 7600 step 3800 | loss train: 0.060, val: 0.061 | iter time: 13668.75 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+I recommend watching "The Lord of the Rings: The Return of the King" because it is a critically acclaimed film that won 11 Academy Awards, including Best Picture, and has been widely praised for its epic scale, stunning visuals, and compelling story. The film is the third and final installment in Peter Jackson's acclaimed trilogy, and it brings to a close the epic journey of Frodo and his companions as they attempt to destroy the One Ring and save Middle-earth from the dark lord Sauron
+iter 7600: val loss 0.0607, val time: 539230.21 ms
+Saving checkpoint to 'out/llama-3-8b-110k/step-003800'
+Epoch 5 | iter 7650 step 3825 | loss train: 0.061, val: 0.061 | iter time: 13543.20 ms (step)
+Epoch 5 | iter 7700 step 3850 | loss train: 0.060, val: 0.061 | iter time: 13654.53 ms (step)
+Epoch 5 | iter 7750 step 3875 | loss train: 0.061, val: 0.061 | iter time: 13571.57 ms (step)
+Epoch 5 | iter 7800 step 3900 | loss train: 0.060, val: 0.061 | iter time: 13637.16 ms (step)
+Epoch 5 | iter 7850 step 3925 | loss train: 0.060, val: 0.061 | iter time: 13630.21 ms (step)
+Epoch 5 | iter 7900 step 3950 | loss train: 0.062, val: 0.061 | iter time: 13914.62 ms (step)
+Epoch 5 | iter 7950 step 3975 | loss train: 0.061, val: 0.061 | iter time: 13434.56 ms (step)
+Epoch 5 | iter 8000 step 4000 | loss train: 0.060, val: 0.061 | iter time: 13659.24 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+The Shawshank Redemption is a great movie to watch during the weekend. It is a 1994 drama film directed by Frank Darabont, and stars Tim Robbins, Morgan Freeman, and Bob Gunton. The movie follows the story of Andy Dufresne, a man who is wrongfully convicted of murdering his wife and her lover, and is sentenced to life in Shawshank State Prison. Despite the harsh conditions of the prison, Andy befriends a variety of inmates, including Red
+iter 8000: val loss 0.0606, val time: 539520.48 ms
+Saving checkpoint to 'out/llama-3-8b-110k/step-004000'
+Epoch 5 | iter 8050 step 4025 | loss train: 0.059, val: 0.061 | iter time: 13584.09 ms (step)
+Epoch 5 | iter 8100 step 4050 | loss train: 0.061, val: 0.061 | iter time: 13661.59 ms (step)
+Epoch 5 | iter 8150 step 4075 | loss train: 0.061, val: 0.061 | iter time: 13687.54 ms (step)
+Epoch 5 | iter 8200 step 4100 | loss train: 0.059, val: 0.061 | iter time: 13389.20 ms (step)
+Epoch 5 | iter 8250 step 4125 | loss train: 0.059, val: 0.061 | iter time: 13978.31 ms (step)
+Epoch 5 | iter 8300 step 4150 | loss train: 0.060, val: 0.061 | iter time: 13851.91 ms (step)
+Epoch 5 | iter 8350 step 4175 | loss train: 0.060, val: 0.061 | iter time: 13958.99 ms (step)
+Epoch 5 | iter 8400 step 4200 | loss train: 0.059, val: 0.061 | iter time: 13641.15 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+I recommend [3 Idiots](https://www.imdb.com/title/tt0780503/?ref_=nv_sr_1) and [Dangal](https://www.imdb.com/title/tt5820786/?ref_=nv_sr_1) and [Queen](https://www.imdb.com/title/tt2740874/?ref_=nv_sr_1) because all of them are a great inspirational movies.
+iter 8400: val loss 0.0605, val time: 489010.44 ms
+Saving checkpoint to 'out/llama-3-8b-110k/step-004200'
+Epoch 5 | iter 8450 step 4225 | loss train: 0.061, val: 0.060 | iter time: 13618.94 ms (step)
+Epoch 5 | iter 8500 step 4250 | loss train: 0.062, val: 0.060 | iter time: 13631.46 ms (step)
+Epoch 6 | iter 8550 step 4275 | loss train: 0.061, val: 0.060 | iter time: 13794.13 ms (step)
+Epoch 6 | iter 8600 step 4300 | loss train: 0.060, val: 0.060 | iter time: 13669.15 ms (step)
+Epoch 6 | iter 8650 step 4325 | loss train: 0.060, val: 0.060 | iter time: 14047.48 ms (step)
+Epoch 6 | iter 8700 step 4350 | loss train: 0.060, val: 0.060 | iter time: 13539.42 ms (step)
+Epoch 6 | iter 8750 step 4375 | loss train: 0.059, val: 0.060 | iter time: 13404.62 ms (step)
+Epoch 6 | iter 8800 step 4400 | loss train: 0.059, val: 0.060 | iter time: 13576.26 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+I would recommend watching the movie "Tenet" this weekend. This movie is an action thriller that follows a secret agent who must prevent the world from being destroyed. The movie is filled with suspense and twists, and will keep you on the edge of your seat. Additionally, the time-bending elements of the movie add an extra layer of complexity and excitement. Overall, "Tenet" is a captivating and entertaining movie that is sure to be a hit.
+iter 8800: val loss 0.0607, val time: 506877.57 ms
+Saving checkpoint to 'out/llama-3-8b-110k/step-004400'
+Epoch 6 | iter 8850 step 4425 | loss train: 0.061, val: 0.061 | iter time: 13584.41 ms (step)
+Epoch 6 | iter 8900 step 4450 | loss train: 0.059, val: 0.061 | iter time: 13679.32 ms (step)
+Epoch 6 | iter 8950 step 4475 | loss train: 0.060, val: 0.061 | iter time: 14344.17 ms (step)
+Epoch 6 | iter 9000 step 4500 | loss train: 0.060, val: 0.061 | iter time: 13661.95 ms (step)
+Epoch 6 | iter 9050 step 4525 | loss train: 0.058, val: 0.061 | iter time: 13588.59 ms (step)
+Epoch 6 | iter 9100 step 4550 | loss train: 0.060, val: 0.061 | iter time: 13978.49 ms (step)
+Epoch 6 | iter 9150 step 4575 | loss train: 0.059, val: 0.061 | iter time: 13724.77 ms (step)
+Epoch 6 | iter 9200 step 4600 | loss train: 0.060, val: 0.061 | iter time: 13975.02 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+I recommend you watch the movie "The Shawshank Redemption" because it is a classic film that will leave you feeling inspired and uplifted. The movie tells the story of two prisoners who form a bond and find hope and redemption in the most unlikely of places. The film is known for its powerful performances, beautiful cinematography, and memorable quotes, making it a must-watch for anyone looking to escape into a world of hope and redemption.
+iter 9200: val loss 0.0605, val time: 488443.56 ms
+Saving checkpoint to 'out/llama-3-8b-110k/step-004600'
+Epoch 6 | iter 9250 step 4625 | loss train: 0.059, val: 0.061 | iter time: 13549.28 ms (step)
+Epoch 6 | iter 9300 step 4650 | loss train: 0.060, val: 0.061 | iter time: 13871.05 ms (step)
+Epoch 6 | iter 9350 step 4675 | loss train: 0.058, val: 0.061 | iter time: 13719.90 ms (step)
+Epoch 6 | iter 9400 step 4700 | loss train: 0.060, val: 0.061 | iter time: 13369.41 ms (step)
+Epoch 6 | iter 9450 step 4725 | loss train: 0.059, val: 0.061 | iter time: 13513.86 ms (step)
+Epoch 6 | iter 9500 step 4750 | loss train: 0.058, val: 0.061 | iter time: 13935.28 ms (step)
+Epoch 6 | iter 9550 step 4775 | loss train: 0.061, val: 0.061 | iter time: 13993.90 ms (step)
+Epoch 6 | iter 9600 step 4800 | loss train: 0.059, val: 0.061 | iter time: 13390.41 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+I recommend watching "Tenet" because it is a thrilling and thought-provoking movie that will keep you on the edge of your seat. The movie is set in a world where time can be bent and manipulated, and the main character, played by John David Washington, must use his wits and skills to navigate through this challenging environment. The movie is full of action and suspense, and its unique concept makes it a must-watch for science fiction fans. Additionally, the movie features a talented cast
+iter 9600: val loss 0.0603, val time: 534673.96 ms
+Saving checkpoint to 'out/llama-3-8b-110k/step-004800'
+Epoch 6 | iter 9650 step 4825 | loss train: 0.059, val: 0.060 | iter time: 13597.02 ms (step)
+Epoch 6 | iter 9700 step 4850 | loss train: 0.059, val: 0.060 | iter time: 13641.77 ms (step)
+Epoch 6 | iter 9750 step 4875 | loss train: 0.061, val: 0.060 | iter time: 13842.30 ms (step)
+Epoch 6 | iter 9800 step 4900 | loss train: 0.058, val: 0.060 | iter time: 13630.49 ms (step)
+Epoch 6 | iter 9850 step 4925 | loss train: 0.059, val: 0.060 | iter time: 13616.45 ms (step)
+Epoch 6 | iter 9900 step 4950 | loss train: 0.058, val: 0.060 | iter time: 13933.35 ms (step)
+Epoch 6 | iter 9950 step 4975 | loss train: 0.060, val: 0.060 | iter time: 13606.75 ms (step)
+Epoch 6 | iter 10000 step 5000 | loss train: 0.061, val: 0.060 | iter time: 13664.64 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+Before anything, let me know your preference. Here are some recommendations based on your preference:
+
+- If you prefer a thriller, I highly recommend [Enemy of the State](http://www.imdb.com/title/tt0120591/). The story revolves around a government agent who is framed for the murder of a congressman. With the help of a brilliant hacker, he uncovers a conspiracy that threatens the country. The movie is full of suspense and action, and the performances by Will Smith and Gene
+iter 10000: val loss 0.0603, val time: 535800.28 ms
+Saving checkpoint to 'out/llama-3-8b-110k/step-005000'
+Epoch 6 | iter 10050 step 5025 | loss train: 0.060, val: 0.060 | iter time: 13772.30 ms (step)
+Epoch 6 | iter 10100 step 5050 | loss train: 0.061, val: 0.060 | iter time: 13690.72 ms (step)
+Epoch 6 | iter 10150 step 5075 | loss train: 0.059, val: 0.060 | iter time: 13668.84 ms (step)
+Epoch 6 | iter 10200 step 5100 | loss train: 0.060, val: 0.060 | iter time: 13664.76 ms (step)
+Epoch 7 | iter 10250 step 5125 | loss train: 0.059, val: 0.060 | iter time: 13418.44 ms (step)
+Epoch 7 | iter 10300 step 5150 | loss train: 0.060, val: 0.060 | iter time: 13685.79 ms (step)
+Epoch 7 | iter 10350 step 5175 | loss train: 0.060, val: 0.060 | iter time: 13623.13 ms (step)
+Epoch 7 | iter 10400 step 5200 | loss train: 0.058, val: 0.060 | iter time: 13563.00 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+I recommend watching "The Fellowship of the Ring" because it is a fantasy adventure film that will keep you engaged and on the edge of your seat. The story follows a group of hobbits, a wizard, and a human as they journey to destroy a powerful ring. The film is full of action, drama, and heartwarming moments, and it is a must-watch for anyone who loves a good story.
+iter 10400: val loss 0.0605, val time: 465442.12 ms
+Saving checkpoint to 'out/llama-3-8b-110k/step-005200'
+Epoch 7 | iter 10450 step 5225 | loss train: 0.061, val: 0.060 | iter time: 13697.40 ms (step)
+Epoch 7 | iter 10500 step 5250 | loss train: 0.060, val: 0.060 | iter time: 13637.49 ms (step)
+Epoch 7 | iter 10550 step 5275 | loss train: 0.061, val: 0.060 | iter time: 13626.10 ms (step)
+Epoch 7 | iter 10600 step 5300 | loss train: 0.060, val: 0.060 | iter time: 13685.50 ms (step)
+Epoch 7 | iter 10650 step 5325 | loss train: 0.060, val: 0.060 | iter time: 13727.83 ms (step)
+Epoch 7 | iter 10700 step 5350 | loss train: 0.059, val: 0.060 | iter time: 13677.57 ms (step)
+Epoch 7 | iter 10750 step 5375 | loss train: 0.061, val: 0.060 | iter time: 13552.35 ms (step)
+Epoch 7 | iter 10800 step 5400 | loss train: 0.059, val: 0.060 | iter time: 13690.63 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+I recommend you watch "Forrest Gump" because it is a heartwarming story about a man who overcomes many challenges in life and finds true love. The movie is a classic and will certainly make you feel good.
+iter 10800: val loss 0.0605, val time: 295462.94 ms
+Saving checkpoint to 'out/llama-3-8b-110k/step-005400'
+Epoch 7 | iter 10850 step 5425 | loss train: 0.058, val: 0.061 | iter time: 13587.05 ms (step)
+Epoch 7 | iter 10900 step 5450 | loss train: 0.058, val: 0.061 | iter time: 13769.38 ms (step)
+Epoch 7 | iter 10950 step 5475 | loss train: 0.060, val: 0.061 | iter time: 13901.11 ms (step)
+Epoch 7 | iter 11000 step 5500 | loss train: 0.058, val: 0.061 | iter time: 13612.77 ms (step)
+Epoch 7 | iter 11050 step 5525 | loss train: 0.060, val: 0.061 | iter time: 13598.30 ms (step)
+Epoch 7 | iter 11100 step 5550 | loss train: 0.060, val: 0.061 | iter time: 13585.53 ms (step)
+Epoch 7 | iter 11150 step 5575 | loss train: 0.058, val: 0.061 | iter time: 13560.75 ms (step)
+Epoch 7 | iter 11200 step 5600 | loss train: 0.059, val: 0.061 | iter time: 13574.81 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+I recommend watching "The Shawshank Redemption" because it is a classic film that has earned critical acclaim and is considered one of the greatest films of all time. The story follows two men, Red and Andy, who are imprisoned in a maximum security prison. Despite the harsh conditions, the two form a strong bond and eventually escape. The film is a powerful and emotional drama that is sure to keep you engaged from start to finish.
+iter 11200: val loss 0.0605, val time: 480854.29 ms
+Saving checkpoint to 'out/llama-3-8b-110k/step-005600'
+Epoch 7 | iter 11250 step 5625 | loss train: 0.060, val: 0.061 | iter time: 13617.12 ms (step)
+Epoch 7 | iter 11300 step 5650 | loss train: 0.060, val: 0.061 | iter time: 14405.74 ms (step)
+Epoch 7 | iter 11350 step 5675 | loss train: 0.058, val: 0.061 | iter time: 13692.27 ms (step)
+Epoch 7 | iter 11400 step 5700 | loss train: 0.059, val: 0.061 | iter time: 13397.15 ms (step)
+Epoch 7 | iter 11450 step 5725 | loss train: 0.059, val: 0.061 | iter time: 13636.28 ms (step)
+Epoch 7 | iter 11500 step 5750 | loss train: 0.059, val: 0.061 | iter time: 13576.91 ms (step)
+Epoch 7 | iter 11550 step 5775 | loss train: 0.059, val: 0.061 | iter time: 13619.32 ms (step)
+Epoch 7 | iter 11600 step 5800 | loss train: 0.058, val: 0.061 | iter time: 13600.06 ms (step)
+Validating ...
+Recommend a movie for me to watch during the weekend and explain the reason.
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Recommend a movie for me to watch during the weekend and explain the reason.
+
+### Response:
+I recommend you watch The Shawshank Redemption. It's a movie about hope, perseverance, and friendship. The movie follows the story of two men, Andy and Red, who are incarcerated in a prison. Despite the harsh conditions, they find ways to keep their spirits up and maintain a sense of hope. The movie is a classic that is sure to leave a lasting impression.
+iter 11600: val loss 0.0607, val time: 433891.92 ms
+Saving checkpoint to 'out/llama-3-8b-110k/step-005800'
+Epoch 7 | iter 11650 step 5825 | loss train: 0.060, val: 0.061 | iter time: 13532.41 ms (step)
+Epoch 7 | iter 11700 step 5850 | loss train: 0.058, val: 0.061 | iter time: 13542.22 ms (step)
+Epoch 7 | iter 11750 step 5875 | loss train: 0.059, val: 0.061 | iter time: 13656.94 ms (step)
+Epoch 7 | iter 11800 step 5900 | loss train: 0.060, val: 0.061 | iter time: 13752.98 ms (step)
+Epoch 7 | iter 11850 step 5925 | loss train: 0.059, val: 0.061 | iter time: 13616.39 ms (step)
+Epoch 7 | iter 11900 step 5950 | loss train: 0.060, val: 0.061 | iter time: 13623.29 ms (step)
+Epoch 8 | iter 11950 step 5975 | loss train: 0.059, val: 0.061 | iter time: 13744.47 ms (step)
+Epoch 8 | iter 12000 step 6000 | loss train: 0.059, val: 0.061 | iter time: 13531.05 ms (step)
+Validating ...
