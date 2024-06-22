@@ -12,8 +12,8 @@ import requests, json, random, os, signal, subprocess, time
 from tqdm import tqdm
 
 def query_model_api(prompt:str, model_name:str, 
-                    openai_api_key:str="sk-proj-dJAHdJead8YMGdnndlAxT3BlbkFJoSEl4r3NdsFsthH0ndZl", 
-                    together_api_key:str="eaf1460af3ee85cd901023612c02751b61c711957ba60aaa8523c4d69612edc6"):
+                    openai_api_key:str, 
+                    together_api_key:str):
     openai_client = OpenAI(api_key=openai_api_key)
     together_client = Together(api_key=together_api_key)
 
@@ -441,7 +441,7 @@ def get_model_response(parsed_prompt, model):
         response = requests.post('http://lexi.eecs.berkeley.edu:8002/query_model', json=data)
         return response.json()['response']['choices'][0]['text']
     elif model == "ChatGPT-3.5-Turbo":
-        client = OpenAI(api_key="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")
+        client = OpenAI(api_key="")
         response = client.completions.create(
         model="gpt-3.5-turbo-instruct",
         prompt=parsed_prompt,
